@@ -1,0 +1,269 @@
+:root {
+  /* colors */
+  --white: #FFFFFF;
+  --black: #383743;
+  --gray: #EDEDED;
+  --blue: #0000FF;
+  --red: #FB8E8E;
+
+  /* fontsizes */
+  --fs-basic: 1.5rem;
+  --fs-smaller: 1.25rem;
+  --fs-big: 1.75rem;
+  --fs-bigger: 2rem;
+  --fs-biggest: 2.25rem;
+}
+@media all and (max-width: 1520px) {
+  :root{
+    --fs-basic: 1.375rem;
+    --fs-smaller: 1.125rem;
+    --fs-big: 1.75rem;
+    --fs-bigger: 2rem;
+    --fs-biggest: 2.25rem;
+  }
+}
+@media all and (max-width: 1310px) {
+  :root{
+    --fs-big: 1.5rem;
+  }
+}
+@media all and (max-width: 1200px) {
+  :root{
+    --fs-basic: 1.25rem;
+    --fs-smaller: 1rem;
+    --fs-big: 1.375rem;
+    --fs-bigger: 1.75rem;
+    --fs-biggest: 2rem;
+  }
+}
+@media all and (max-width: 1024px) {
+  :root{
+    --fs-basic: 1.125rem;
+    --fs-smaller: 0.875rem;
+    --fs-big: 1.25rem;
+    --fs-bigger: 1.625rem;
+    --fs-biggest: 1.875rem;
+  }
+}
+@media all and (max-width: 768px) {
+  :root{
+    --fs-basic: 1rem;
+    --fs-smaller: 0.875rem;
+    --fs-big: 1.375rem;
+    --fs-bigger: 1.5rem;
+    --fs-biggest: 1.75rem;
+  }
+}
+@media all and (max-width: 480px) {
+  :root{
+    --fs-basic: 0.875rem;
+    --fs-smaller: 0.75rem;
+    --fs-big: 1.125rem;
+    --fs-bigger: 1.25rem;
+    --fs-biggest: 1.375rem;
+  }
+}
+
+@font-face {
+  font-family: "Objectivity";
+  font-style: normal;
+  font-weight: 500;
+  src: url(~/assets/fonts/Objectivity-Medium.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "Objectivity";
+  font-style: normal;
+  font-weight: 700;
+  src: url(~/assets/fonts/Objectivity-Bold.woff2) format("woff2");
+}
+
+/* GLOBAL STYLES */
+html {
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: var(--gray);
+  font-family: "Objectivity", sans-serif;
+  font-weight: 500;
+  font-size: var(--fs-basic);
+  color: var(--black);
+}
+
+a {
+  color: var(--black);
+}
+
+a:visited {
+  color: var(--black);
+}
+
+.wrap {
+  box-sizing: border-box;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: var(--fs-biggest);
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: var(--fs-basic);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 0.25rem;
+}
+
+h3 {
+  font-size: var(--fs-basic);
+  font-weight: 700;
+  margin: 0;
+}
+
+p ~ h2{
+  font-size: var(--fs-bigger);
+  font-weight: 700;
+  letter-spacing: normal;
+  margin: 4rem 0 2rem;
+  text-transform: none;
+}
+
+p {
+  margin: 0 0 1rem;
+}
+
+.btn{
+  background-color: var(--blue);
+  color: var(--white);
+  display: inline-block;
+  font-size: var(--fs-smaller);
+  letter-spacing: 0.5px;
+  padding: 0.75rem 3rem 0.5rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+a:hover.btn {
+  font-weight: 700;
+} 
+
+a:visited.btn {
+  color: var(--white);
+}
+
+.hg-marker-container {
+  position: relative;
+  z-index: 0;
+  width: 100%;
+  height: auto;
+}
+
+.hg-marker {
+  position: absolute;
+  top:0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.hg-marker-container svg path {
+  stroke: var(--white);
+}
+
+.svg-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+  z-index: 50;
+}
+
+.svg-container svg {
+  height: 100%;
+  width: 100%;
+}
+
+/* Flexboxgrid: more gutter */
+.col-xs,
+.col-xs-1,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12 {
+  padding-right: 1.125rem;
+  padding-left: 1.125rem;
+}
+
+@media all and (max-width: 768px) {
+  .container-fluid{
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+  }
+  h1{
+    margin-bottom: 1rem;
+  }
+  p ~ h2{
+    margin: 2rem 0 1rem;
+  }
+}
+
+/* Helper */
+.z-100 {
+  position: relative;
+  z-index: 100;
+}
+.responsive-img {
+  width: 100%;
+  height: auto;
+}
+.display-none-sm {
+  display: none;
+}
+.display-none-md {
+  display: none;
+}
+.display-md {
+  display: none;
+}
+.display-sm {
+  display: none;
+}
+
+@media all and (min-width: 769px) {
+  .display-md{
+    display: block;
+  }
+}
+@media all and (max-width: 768px) {
+  .display-none-md{
+    display: block;
+  }
+}
+@media all and (min-width: 481px) {
+  .display-sm{
+    display: block;
+  }
+}
+@media all and (max-width: 480px) {
+  .display-none-sm{
+    display: block;
+  }
+  .display-none-md{
+    display: none;
+  }
+}
+
