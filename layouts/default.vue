@@ -1,3 +1,19 @@
+<script setup>
+import { useI18n } from "vue-i18n";
+const { t } = useI18n();
+definePageMeta({
+  title: 'seo.title'
+})
+
+useHead({
+  meta: [
+    { property: "og:title", content: t('seo.title') },
+    { property: "og:description", content: t('seo.description') },
+    { property: "og:image", content: 'https://ninasiessegger.de/card.png' },
+  ]
+})
+</script>
+
 <template>
   <div class="wrap container-fluid">
     <NavBar />
@@ -17,52 +33,6 @@ export default {
     DefaultFooter,
     NavBar
   },
-  head() {
-    const i18nHead = this.$localeHead({ addSeoAttributes: true })
-    return {
-      meta: [
-        {
-          hid: 'description',
-          name: 'description',
-          content: this.$t('seo.description')
-        },
-        {
-          hid: 'og_sitename',
-          name: 'og:sitename',
-          content: this.$t('seo.title') 
-        },
-        {
-          hid: 'og_url',
-          property: 'og:url',
-          content: 'https://ninasiessegger.de'
-        },
-        {
-          hid: 'og_image',
-          property: 'og:image',
-          content: 'https://ninasiessegger.de/card.png'
-        },
-        {
-          hid: 'og_title',
-          property: 'og:title',
-          content: this.$t('seo.title') 
-        },
-        {
-          hid: 'og_description',
-          property: 'og:description',
-          content: this.$t('seo.description')
-        },
-        ...i18nHead.meta
-      ],
-      link: [
-        {
-          hid: 'canonical',
-          rel: 'canonical',
-          href: 'https://ninasiessegger.de'
-        },
-        ...i18nHead.link
-      ]
-    }
-  }
 }
 </script>
 
