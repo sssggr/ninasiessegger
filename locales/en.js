@@ -58,11 +58,11 @@ export default {
       paragraph4: 'There is no tracking and I do not have direct access to this data, but only receive an anonymized statistical summary. This includes the address of the previously visited page, the frequency of each page viewed and the number of unique visitors. I do not merge this data with any other data.',
       paragraph5: 'I use the following hoster to provide my website: GitHub Inc, 88 Colin P Kelly Jr St, San Francisco, CA 94107, United States.',
       paragraph6: 'This is a recipient of your personal data. It is in my legitimate interest within the meaning of Art. 6 para. 1 p. 1 lit. f DSGVO not to have to maintain a server on my premises myself. Server location is USA.',
-      // paragraph7: 'For more information on opt-out and removal options vis-à-vis GitHub, please visit: https://docs.github.com/en/free-pro-team@latest/github/site-policy/github-privacy-statement#github-pages',
+      paragraph7: "For more information on opt-out and removal options vis-à-vis GitHub, please visit: https://docs.github.com/en/free-pro-team{'@'}latest/github/site-policy/github-privacy-statement#github-pages",
       paragraph8: 'You have the right to object to processing. Whether the objection is successful is to be determined in the context of a balancing of interests.',
       paragraph9: 'The data shall be deleted as soon as the purpose of the processing ceases to apply',
       paragraph10: 'The processing of the data provided under this section is not required by law or contract. The functionality of the website is not guaranteed without the processing.',
-      // paragraph11: 'GitHub has implemented compliance measures for international data transfers. These apply to all global activities where GitHub processes personal data of individuals in the EU. These measures are based on the EU Standard Contractual Clauses (SCCs). For more information, please visit: https://docs.github.com/en/free-pro-team@latest/github/site-policy/github-data-protection-addendum#attachment-1-the-standard-contractual-clauses-processors',
+      paragraph11: "GitHub has implemented compliance measures for international data transfers. These apply to all global activities where GitHub processes personal data of individuals in the EU. These measures are based on the EU Standard Contractual Clauses (SCCs). For more information, please visit: https://docs.github.com/en/free-pro-team{'@'}latest/github/site-policy/github-data-protection-addendum#attachment-1-the-standard-contractual-clauses-processors",
     }
   },
   howIWork: {
