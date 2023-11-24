@@ -154,6 +154,10 @@ export default {
       title: 'About me',
       description: "Hi, I'm Nina Siessegger - mediator, team and organizational developer.",
     },
+    contact: {
+      title: 'Contact - Nina Siessegger',
+      description: 'Are you interested in working with me or would you like to find out more about my services? I look forward to your message or call.',
+    },
     inqa: {
       title: 'INQA-Coaching',
       description: 'Agile into the digital future: Apply now for funding for INQA coaching! The subsidized consulting program for SMEs.',

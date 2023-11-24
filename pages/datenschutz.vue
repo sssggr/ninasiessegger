@@ -1,3 +1,12 @@
+<script setup>
+import { useI18n } from "vue-i18n";
+const { t } = useI18n();
+
+useSeoMeta({
+  robots: 'noindex, nofollow'
+})
+</script>
+
 <template>
     <div class="col-xs-12 col-md-offset-1 col-lg-offset-2 col-lg-9 col-md-10">
       <h1 class="z-100">

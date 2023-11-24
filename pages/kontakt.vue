@@ -1,3 +1,15 @@
+<script setup>
+import { useI18n } from "vue-i18n";
+const { t } = useI18n();
+
+useSeoMeta({
+  title: t('seo.contact.title'),
+  ogTitle: t('seo.contact.title'),
+  ogDescription: t('seo.contact.description'),
+  description: t('seo.contact.description'),
+})
+</script>
+
 <template>
   <div class="row">
     <div class="col-xs-12 col-md-offset-1 col-lg-offset-2 col-lg-9 col-md-10">

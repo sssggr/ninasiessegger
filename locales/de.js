@@ -165,6 +165,10 @@ export default {
       title: 'Über mich',
       description: 'Hallo, ich bin Nina Siessegger - Mediatorin, Team- und Organisationsentwicklerin.'
     },
+    contact: {
+      title: 'Kontakt - Nina Siessegger',
+      description: 'Haben Sie Interesse an einer Zusammenarbeit oder wollen mehr über mein Angebot erfahren? Ich freue mich auf Ihre Nachricht oder Ihren Anruf.',
+    },
     inqa: {
       title: 'INQA-Coaching',
       description: 'Agil in die digitale Zukunft: Jetzt Förderung beantragen für ein INQA Coaching! Das geförderte Beratungsprogramm Förderprogramm für KMU.',
