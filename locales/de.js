@@ -158,9 +158,9 @@ export default {
     paragraph5: 'Kontaktieren Sie mich gerne für ein unverbindliches Gespräch!'
   },
   seo: {
-    description: 'Ich begleite Teams, Gruppen und Organisationen in kollektiven Veränderungs, Lern- und Entwicklungsprozessen.',
-    keywords: 'Organisationsberatung, Organisationsentwicklung, Teamcoaching, Moderation, Facilitation, Teamentwicklung, Retrospektive, Hamburg, Agil, Remote Facilitation', 
-    title: 'Nina Siessegger - Agile Organisationsberatung, Teamentwicklung & Moderation'
+    description: 'Ich begleite Teams, Gruppen und Organisationen in Veränderungs, Lern- und Entwicklungsprozessen.',
+    keywords: 'Organisationsberatung, Organisationsentwicklung, Teamcoaching, Teamentwicklung Moderation, Facilitation, Teamentwicklung, Retrospektive, Hamburg, Agil, Mediation, Konfliktberatung', 
+    title: 'Nina Siessegger - Agile Organisationsberatung, Teamentwicklung & Mediation'
   },
   teamcoaching: {
     myOffer: 'Mein Angebot',
