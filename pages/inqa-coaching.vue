@@ -2,12 +2,12 @@
 import { useI18n } from "vue-i18n";
 const { t } = useI18n();
 
-useHead({
+
+useSeoMeta({
   title: t('seo.inqa.title'),
-  meta: [
-  { property: "og:title", content: t('seo.inqa.title') },
-    { property: "og:description", content: t('seo.inqa.description') },
-  ]
+  ogTitle: t('seo.inqa.title'),
+  ogDescription: t('seo.inqa.description'),
+  description: t('seo.inqa.description'),
 })
 </script>
 

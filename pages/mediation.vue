@@ -2,12 +2,11 @@
 import { useI18n } from "vue-i18n";
 const { t } = useI18n();
 
-useHead({
+useSeoMeta({
   title: t('seo.mediation.title'),
-  meta: [
-  { property: "og:title", content: t('seo.mediation.title') },
-    { property: "og:description", content: t('seo.mediation.description') },
-  ]
+  ogTitle: t('seo.mediation.title'),
+  ogDescription: t('seo.mediation.description'),
+  description: t('seo.mediation.description'),
 })
 </script>
 
