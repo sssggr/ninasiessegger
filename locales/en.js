@@ -150,6 +150,26 @@ export default {
     description: 'I accompany teams, groups and organizations in collective change, learning and development processes.',
     keywords: 'Agile Organization Consulting, Team coaching, facilitation, team development, retrospective, Hamburg, Agile, remote facilitation, organization development, mediation, conflict',
     title: 'Nina Siessegger - Agile Organization Consulting, Team Development & Mediation',
+    about: {
+      title: 'About me',
+      description: "Hi, I'm Nina Siessegger - mediator, team and organizational developer.",
+    },
+    inqa: {
+      title: 'INQA-Coaching',
+      description: 'Agile into the digital future: Apply now for funding for INQA coaching! The subsidized consulting program for SMEs.',
+    },
+    mediation: {
+      title: 'Mediation & conflict counseling',
+      description: 'As a mediator and conflict consultant, I support organizations, teams and individuals in dealing with conflicts and finding constructive and sustainable solutions.'
+    },
+    organizationalConsulting: {
+      title: 'Organizational consulting & organizational development',
+      description: 'As an organizational developer, I support companies in shaping change processes. I like to work with agile methods. My goal is to strengthen the ability for continuous development within the organization in the long term.'
+    },
+    teamdevelopment: {
+      title: 'Team development',
+      description: 'As a team developer, I support teams in improving cooperation and communication within the team, defining and achieving common goals.'
+    },
   },
   organizationConsulting: {
     headline: 'Agile Organization Consulting',

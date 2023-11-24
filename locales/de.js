@@ -159,8 +159,28 @@ export default {
   },
   seo: {
     description: 'Ich begleite Teams, Gruppen und Organisationen in Veränderungs, Lern- und Entwicklungsprozessen.',
-    keywords: 'Organisationsberatung, Organisationsentwicklung, Teamcoaching, Teamentwicklung Moderation, Facilitation, Teamentwicklung, Retrospektive, Hamburg, Agil, Mediation, Konfliktberatung', 
-    title: 'Nina Siessegger - Agile Organisationsberatung, Teamentwicklung & Mediation'
+    keywords: 'Organisationsberatung, Organisationsentwicklung, Teamcoaching, Teamentwicklung, Moderation, Facilitation, Teamentwicklung, Retrospektive, Hamburg, Agil, Mediation, Konfliktberatung', 
+    title: 'Nina Siessegger - Agile Organisationsberatung, Teamentwicklung & Mediation',
+    about: {
+      title: 'Über mich',
+      description: 'Hallo, ich bin Nina Siessegger - Mediatorin, Team- und Organisationsentwicklerin.'
+    },
+    inqa: {
+      title: 'INQA-Coaching',
+      description: 'Agil in die digitale Zukunft: Jetzt Förderung beantragen für ein INQA Coaching! Das geförderte Beratungsprogramm Förderprogramm für KMU.',
+    },
+    mediation: {
+      title: 'Mediation & Konfliktberatung',
+      description: 'Als Mediatorin und Konfliktberaterin begleite ich Organisationen, Teams und Einzelpersonen in der Bearbeitung von Konflikten und bei der Suche nach konstruktiven und nachhaltigen Lösungen.'
+    },
+    organizationConsulting: {
+      title: 'Organisationsberatung & Organisationsentwicklung',
+      description: 'Als Organisationsentwicklerin unterstütze ich Unternehmen dabei, Veränderungsprozesse zu gestalten. Dabei arbeite ich gerne mit agilen Methoden. Mein Ziel ist es, langfristig die Fähigkeit zur kontinuierlichen Weiterentwicklung innerhalb der Organisation zu stärken.'
+    },
+    teamdevelopment: {
+      title: 'Teamentwicklung',
+      description: 'Als Teamentwicklerin unterstütze ich Teams dabei, die Zusammenarbeit und Kommunikation innerhalb des Teams zu verbessern, gemeinsame Ziele zu definieren und zu erreichen.'
+    },
   },
   teamcoaching: {
     myOffer: 'Mein Angebot',

@@ -1,3 +1,16 @@
+<script setup>
+import { useI18n } from "vue-i18n";
+const { t } = useI18n();
+
+useHead({
+  title: t('seo.about.title'),
+  meta: [
+  { property: "og:title", content: t('seo.about.title') },
+    { property: "og:description", content: t('seo.about.description') },
+  ]
+})
+</script>
+
 <template>
   <div>
     <div class="row">
