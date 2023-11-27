@@ -8,6 +8,9 @@ useSeoMeta({
   ogTitle: t('seo.title'),
   ogDescription: t('seo.description'),
   description: t('seo.description'),
+  ogSiteName: t('seo.title'),
+  ogUrl: 'https://ninasiessegger.de',
+  ogImage: 'https://ninasiessegger.de/card.png'
 })
 </script>
 
