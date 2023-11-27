@@ -160,7 +160,7 @@ export default {
   seo: {
     description: 'Ich begleite Teams, Gruppen und Organisationen in Veränderungs, Lern- und Entwicklungsprozessen.',
     keywords: 'Organisationsberatung, Organisationsentwicklung, Teamcoaching, Teamentwicklung, Moderation, Facilitation, Teamentwicklung, Retrospektive, Hamburg, Agil, Mediation, Konfliktberatung', 
-    title: 'Nina Siessegger - Agile Organisationsberatung, Teamentwicklung & Mediation',
+    title: 'Nina Siessegger - Organisations- und Teamentwicklung, Mediation',
     about: {
       title: 'Über mich',
       description: 'Hallo, ich bin Nina Siessegger - Mediatorin, Team- und Organisationsentwicklerin.'

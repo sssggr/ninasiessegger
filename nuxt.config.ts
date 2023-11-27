@@ -7,7 +7,7 @@ export default defineNuxtConfig({
   ],
   app: {
     head: {
-      title: 'Nina Siessegger - Agile Organisationsberatung, Teamentwicklung & Mediation',
+      title: 'Nina Siessegger - Team- und Organisationsentwicklung, Mediation',
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
       link: [
