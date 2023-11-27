@@ -7,7 +7,7 @@
     "dev": "nuxt dev",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "generate": "nuxt generate && cpx CNAME dist",
+    "generate": "nuxt generate && cpx CNAME dist && cpx .nojekyll dist",
     "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "devDependencies": {
