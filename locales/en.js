@@ -37,7 +37,7 @@ export default {
       listItem4: 'Agile culture change & organization development (Teamworks)',
       listItem5: 'Authorized Process Consultant in the INQA Coaching Program',
       listItem6: 'Certified ScrumMaster',
-      listItem7: 'Various trainings (online facilitation, visualization, management of remote teams, Liberating Structures)',
+      listItem7: 'Various trainings (online facilitation, visualization, management of remote teams, Liberating Structures, Design Thinking)',
     },
   },
   dataProtection: {

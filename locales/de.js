@@ -37,7 +37,7 @@ export default {
       listItem4: 'Der agile Kulturwandel & Organsationsentwicklung (Teamworks)',
       listItem5: 'Autorisierte Prozessberaterin im Programm INQA-Coaching',
       listItem6: 'Certified ScrumMaster',
-      listItem7: 'Verschiedene Weiterbildungen (Online Moderation, Visualisierung, Management von Remote Teams, Liberating Structures)',
+      listItem7: 'Verschiedene Weiterbildungen (Online Moderation, Visualisierung, Management von Remote Teams, Liberating Structures, Design Thinking)',
 
     }
   },
