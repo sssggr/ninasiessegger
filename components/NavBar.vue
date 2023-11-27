@@ -87,7 +87,7 @@
     </div>
     <div class="language-switch">
       <nuxt-link :to="switchLocalePath('de')" class="navbar-item">DE</nuxt-link>
-      <span>|</span>
+      <span>&nbsp;|&nbsp;</span>
       <nuxt-link :to="switchLocalePath('en')" class="navbar-item">EN</nuxt-link>
     </div>
   </nav>
