@@ -166,7 +166,7 @@ export default {
       title: 'Mediation & conflict counseling',
       description: 'As a mediator and conflict consultant, I support organizations, teams and individuals in dealing with conflicts and finding constructive and sustainable solutions.'
     },
-    organizationalConsulting: {
+    organizationConsulting: {
       title: 'Organizational consulting & organizational development',
       description: 'As an organizational developer, I support companies in shaping change processes. I like to work with agile methods. My goal is to strengthen the ability for continuous development within the organization in the long term.'
     },
