@@ -149,7 +149,7 @@ export default {
   seo: {
     description: 'I accompany teams, groups and organizations in collective change, learning and development processes.',
     keywords: 'Agile Organization Consulting, Team coaching, facilitation, team development, retrospective, Hamburg, Agile, remote facilitation, organization development, mediation, conflict',
-    title: 'Nina Siessegger - Agile Organization Consulting, Team Development & Mediation',
+    title: 'Nina Siessegger - Organizational and team development, mediation',
     about: {
       title: 'About me',
       description: "Hi, I'm Nina Siessegger - mediator, team and organizational developer.",
