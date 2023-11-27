@@ -2,6 +2,11 @@
 import { useI18n } from "vue-i18n";
 const { t } = useI18n();
 
+const head = useLocaleHead({
+  addDirAttribute: true,
+  identifierAttribute: 'id',
+  addSeoAttributes: true
+})
 
 useSeoMeta({
   title: t('seo.title'),
@@ -15,13 +20,15 @@ useSeoMeta({
 </script>
 
 <template>
-  <div class="wrap container-fluid">
-    <NavBar />
-    <main>
-      <slot />
-    </main>
-    <DefaultFooter />
-  </div>
+  <Html :lang="head.htmlAttrs.lang" :dir="head.htmlAttrs.dir">
+    <div class="wrap container-fluid">
+      <NavBar />
+      <main>
+        <slot />
+      </main>
+      <DefaultFooter />
+    </div>
+  </Html>
 </template>
 
 <script>
