@@ -1,3 +1,22 @@
+<script setup>
+import { useI18n } from "vue-i18n";
+const { t } = useI18n();
+const i18nHead = useLocaleHead({ addSeoAttributes: true })
+
+useHead({
+	htmlAttrs: { lang: i18nHead.value.htmlAttrs.lang },
+	link: [...i18nHead.value.link],
+	meta: [...i18nHead.value.meta]
+})
+
+useSeoMeta({
+  title: t('seo.howIWork.title'),
+  ogTitle: t('seo.howIWork.title'),
+  ogDescription: t('seo.howIWork.description'),
+  description: t('seo.howIWork.description'),
+})
+</script>
+
 <template>
   <div class="row">
     <div class="col-xs-12 col-md-offset-1 col-lg-offset-2 col-lg-9 col-md-10">

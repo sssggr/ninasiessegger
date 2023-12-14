@@ -1,6 +1,13 @@
 <script setup>
 import { useI18n } from "vue-i18n";
 const { t } = useI18n();
+const i18nHead = useLocaleHead({ addSeoAttributes: true })
+
+useHead({
+	htmlAttrs: { lang: i18nHead.value.htmlAttrs.lang },
+	link: [...i18nHead.value.link],
+	meta: [...i18nHead.value.meta]
+})
 
 useSeoMeta({
   title: t('seo.mediation.title'),

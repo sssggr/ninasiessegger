@@ -158,6 +158,10 @@ export default {
       title: 'Contact - Nina Siessegger',
       description: 'Are you interested in working with me or would you like to find out more about my services? I look forward to your message or call.',
     },
+    howIWork: {
+      title: "How I work", 
+      description: "I am pragmatic and work in a solution-oriented way. Small, continuous steps that are easy to implement in everyday life enable incremental change and continuous learning."
+    },
     inqa: {
       title: 'INQA-Coaching',
       description: 'Agile into the digital future: Apply now for funding for INQA coaching! The subsidized consulting program for SMEs.',

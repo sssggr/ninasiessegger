@@ -169,6 +169,10 @@ export default {
       title: 'Kontakt - Nina Siessegger',
       description: 'Haben Sie Interesse an einer Zusammenarbeit oder wollen mehr über mein Angebot erfahren? Ich freue mich auf Ihre Nachricht oder Ihren Anruf.',
     },
+    howIWork: {
+      title: "Wie ich arbeite", 
+      description: "Ich bin pragmatisch und arbeite lösungsorientiert. Kleine kontinuierliche Schritte, die sich im Alltag gut umsetzen lassen, ermöglichen inkrementelle Veränderung und stetiges Lernen."
+    }, 
     inqa: {
       title: 'INQA-Coaching',
       description: 'Agil in die digitale Zukunft: Jetzt Förderung beantragen für ein INQA Coaching! Das geförderte Beratungsprogramm Förderprogramm für KMU.',
