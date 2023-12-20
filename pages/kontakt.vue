@@ -1,19 +1,9 @@
 <script setup>
-import { useI18n } from "vue-i18n";
-const { t } = useI18n();
-const i18nHead = useLocaleHead({ addSeoAttributes: true })
-
-useHead({
-	htmlAttrs: { lang: i18nHead.value.htmlAttrs.lang },
-	link: [...i18nHead.value.link],
-	meta: [...i18nHead.value.meta]
-})
-
 useSeoMeta({
-  title: t('seo.contact.title'),
-  ogTitle: t('seo.contact.title'),
-  ogDescription: t('seo.contact.description'),
-  description: t('seo.contact.description'),
+  title: 'Kontakt - Nina Siessegger',
+  ogTitle: 'Kontakt - Nina Siessegger',
+  ogDescription: 'Haben Sie Interesse an einer Zusammenarbeit oder wollen mehr über mein Angebot erfahren? Ich freue mich auf Ihre Nachricht oder Ihren Anruf.',
+  description: 'Haben Sie Interesse an einer Zusammenarbeit oder wollen mehr über mein Angebot erfahren? Ich freue mich auf Ihre Nachricht oder Ihren Anruf.',
 })
 </script>
 
@@ -21,9 +11,11 @@ useSeoMeta({
   <div class="row">
     <div class="col-xs-12 col-md-offset-1 col-lg-offset-2 col-lg-9 col-md-10">
       <h1 class="z-100">
-        {{ $t('contact.headline') }}
+        Kontakt
       </h1>
-      <p class="z-100">{{ $t('contact.paragraph1') }}</p>
+      <p class="z-100">
+        Haben Sie Interesse an einer Zusammenarbeit oder wollen mehr über mein Angebot erfahren? Ich freue mich auf Ihre Nachricht oder Ihren Anruf.
+      </p>
       <p>
         <a href="mailto:hallo@ninasiessegger.de">
           hallo@ninasiessegger.de
@@ -31,7 +23,7 @@ useSeoMeta({
       </p>
       <p>
         <a href="tel:+49 (0)170 2610977">
-          {{ $t('contact.phone') }}
+          +49 (0)170 2610977
         </a>
       </p>
     </div>

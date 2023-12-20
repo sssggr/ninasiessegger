@@ -1,19 +1,9 @@
 <script setup>
-import { useI18n } from "vue-i18n";
-const { t } = useI18n();
-const i18nHead = useLocaleHead({ addSeoAttributes: true })
-
-useHead({
-	htmlAttrs: { lang: i18nHead.value.htmlAttrs.lang },
-	link: [...i18nHead.value.link],
-	meta: [...i18nHead.value.meta]
-})
-
 useSeoMeta({
-  title: t('seo.about.title'),
-  ogTitle: t('seo.about.title'),
-  ogDescription: t('seo.about.description'),
-  description: t('seo.about.description'),
+  title: 'Über mich',
+  ogTitle: 'Über mich',
+  ogDescription: 'Hallo, ich bin Nina Siessegger - Mediatorin, Team- und Organisationsentwicklerin.',
+  description: 'Hallo, ich bin Nina Siessegger - Mediatorin, Team- und Organisationsentwicklerin.',
 })
 </script>
 
@@ -27,25 +17,25 @@ useSeoMeta({
     <div class="row">
     <div class="col-xs-12 col-md-offset-1 col-lg-offset-2 col-lg-9 col-md-10">
       <h1 class="z-100">
-        {{ $t('aboutMe.headline') }}
-        </h1>
-      <p class="z-100">{{ $t('aboutMe.paragraph1') }}</p>
-      <p class="z-100">{{ $t('aboutMe.paragraph2') }}</p>
+       Über mich
+      </h1>
+      <p class="z-100">Ich bin 1980 geboren und lebe seit 2001 in Hamburg. Während meines Studiums der Geschichte, Politik und Osteuropastudien verschlug es mich in den Online-Medien-Bereich, wo ich fast 10 Jahre in unterschiedlichen Rollen - zuletzt als Online-Redakteurin beim NDR - tätig war.</p>
+      <p class="z-100">Seit 2014 bin ich in agilen Kontexten unterwegs - als Softwareentwicklerin, Tech Lead, Agile Coach, Beraterin, Autorin und Teamcoach. Zunächst für verschiedene Start-Ups, dann als Entwicklerin und Beraterin bei der Technologieberatung ThoughtWorks. Seit 2019 bin ich selbstständig tätig. Im Laufe der Jahre habe ich Erfahrungen in verschiedenen Firmen und Organisationen, vom kleinen Start-Up bis zum Großkonzern gesammelt und dabei in und mit internationalen und multikulturellen Teams gearbeitet.</p>
       <p class="z-100">
-        {{ $t('aboutMe.paragraph3') }}
-        <NuxtLink :to="localePath('/wie-ich-arbeite')">
-          {{ $t('aboutMe.paragraph4') }} 
+        Seit 2020 lege ich einen immer stärkeren Fokus auf die Begleitung von Organisationen und Teams in ihrer Weiterentwicklung und in Veränderungsprozessen. Mehr zu meiner Arbeitsweise habe ich 
+        <NuxtLink to="/wie-ich-arbeite">
+          hier zusammengefasst.
         </NuxtLink>
       </p>
-      <h2 class="z-100">{{ $t('aboutMe.qualificationsHeadline') }}</h2>
+      <h2 class="z-100">Qualifikationen</h2>
       <ul class="z-100">
-        <li> {{ $t('aboutMe.qualifications.listItem1') }} </li>
-        <li> {{ $t('aboutMe.qualifications.listItem2') }} </li>
-        <li> {{ $t('aboutMe.qualifications.listItem3') }} </li>
-        <li> {{ $t('aboutMe.qualifications.listItem4') }} </li>
-        <li> {{ $t('aboutMe.qualifications.listItem5') }} </li>
-        <li> {{ $t('aboutMe.qualifications.listItem6') }} </li>
-        <li> {{ $t('aboutMe.qualifications.listItem7') }} </li>
+        <li>Zertifizierte Mediatorin nach Mediationsgesetz</li>
+        <li>Systemische Teamcoaching Ausbildung (die coachingakademie)</li>
+        <li>Soziokratie 3.0 Practitioner Level 1</li>
+        <li>Der agile Kulturwandel & Organsationsentwicklung (Teamworks)</li>
+        <li>Autorisierte Prozessberaterin im Programm INQA-Coaching</li>
+        <li>Certified ScrumMaster</li>
+        <li>Verschiedene Weiterbildungen (Online Moderation, Visualisierung, Management von Remote Teams, Liberating Structures, Design Thinking)</li>
       </ul>
     </div>
     </div>

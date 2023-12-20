@@ -1,19 +1,9 @@
 <script setup>
-import { useI18n } from "vue-i18n";
-const { t } = useI18n();
-const i18nHead = useLocaleHead({ addSeoAttributes: true })
-
-useHead({
-	htmlAttrs: { lang: i18nHead.value.htmlAttrs.lang },
-	link: [...i18nHead.value.link],
-	meta: [...i18nHead.value.meta]
-})
-
 useSeoMeta({
-  title: t('seo.organizationConsulting.title'),
-  ogTitle: t('seo.organizationConsulting.title'),
-  ogDescription: t('seo.organizationConsulting.description'),
-  description: t('seo.organizationConsulting.description'),
+  title: "Organisationsberatung & Organisationsentwicklung",
+  ogTitle: "Organisationsberatung & Organisationsentwicklung",
+  ogDescription: "Als Organisationsentwicklerin unterstütze ich Unternehmen dabei, Veränderungsprozesse zu gestalten. Dabei arbeite ich gerne mit agilen Methoden. Mein Ziel ist es, langfristig die Fähigkeit zur kontinuierlichen Weiterentwicklung innerhalb der Organisation zu stärken.",
+  description: "Als Organisationsentwicklerin unterstütze ich Unternehmen dabei, Veränderungsprozesse zu gestalten. Dabei arbeite ich gerne mit agilen Methoden. Mein Ziel ist es, langfristig die Fähigkeit zur kontinuierlichen Weiterentwicklung innerhalb der Organisation zu stärken.",
 })
 </script>
 
@@ -21,16 +11,16 @@ useSeoMeta({
   <div class="row">
     <div class="col-xs-12 col-md-offset-1 col-lg-offset-2 col-lg-9 col-md-10">
       <h2 class="z-100">
-        {{ $t('organizationConsulting.myOffer') }}
+        Mein Angebot
       </h2>
       <h1 class="z-100">
-        {{ $t('organizationConsulting.headline') }}
+        Agile Organisationsberatung
       </h1>
-      <p class="z-100">{{ $t('organizationConsulting.paragraph1') }}</p>
-      <p class="z-100">{{ $t('organizationConsulting.paragraph2') }}</p>
-      <p class="z-100">{{ $t('organizationConsulting.paragraph3') }}</p>
-      <p class="z-100">{{ $t('organizationConsulting.paragraph4') }}</p>
-      <p class="z-100">{{ $t('organizationConsulting.paragraph5') }}</p>
+      <p class="z-100">Ich begleite Menschen, Teams und Organisationen dabei, Veränderungsprozesse zu gestalten. Da Organisationen und ihre Umwelt kontinuierlich im Wandel sind, arbeite ich gerne in einem fortlaufenden und agilen Prozess.</p>
+      <p class="z-100">In meiner Arbeit ist es mir ein partizipativer Ansatz wichtig. Ich glaube daran, dass Veränderungen am nachhaltigsten sind, wenn sie gemeinschaftlich gestaltet werden. Daher arbeite ich eng mit Teams und Führungskräften zusammen, um die unterschiedlichen Perspektiven und Erfahrungen einzubeziehen.</p>
+      <p class="z-100">Mein Vorgehen ist geprägt von einer iterativen Herangehensweise. Veränderungen werden schrittweise und kontinuierlich umgesetzt, Feedback wird in den Entwicklungsprozess integriert. Dieser Ansatz der Organisationsentwicklung ermöglicht eine organische Entwicklung ohne den Bedarf an umfangreichen Transformationsprojekten. Das Ziel ist es, langfristig die Fähigkeit zur kontinuierlichen Weiterentwicklung innerhalb der Organisation zu stärken und flexibel auf Veränderungen reagieren zu können.</p>
+      <p class="z-100">Ich verwende Tools und Interventionen, die auf die spezifische Situation und den Kontext Ihrer Organisation abgestimmt sind. Denn ich bin der festen Überzeugung, dass es keinen universellen Ansatz gibt. Herausforderungen und Ziele sind immer spezifisch und erfordern individuelle Lösungsansätze.</p>
+      <p class="z-100">Kontaktieren Sie mich gerne für ein unverbindliches Gespräch!</p>
     </div>
   </div>
 </template>

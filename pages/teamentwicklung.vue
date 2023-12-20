@@ -1,19 +1,9 @@
 <script setup>
-import { useI18n } from "vue-i18n";
-const { t } = useI18n();
-const i18nHead = useLocaleHead({ addSeoAttributes: true })
-
-useHead({
-	htmlAttrs: { lang: i18nHead.value.htmlAttrs.lang },
-	link: [...i18nHead.value.link],
-	meta: [...i18nHead.value.meta]
-})
-
 useSeoMeta({
-  title: t('seo.teamdevelopment.title'),
-  ogTitle: t('seo.teamdevelopment.title'),
-  ogDescription: t('seo.teamdevelopment.description'),
-  description: t('seo.teamdevelopment.description'),
+  title: 'Teamentwicklung',
+  ogTitle: 'Teamentwicklung',
+  ogDescription: 'Als Teamentwicklerin unterstütze ich Teams dabei, die Zusammenarbeit und Kommunikation innerhalb des Teams zu verbessern, gemeinsame Ziele zu definieren und zu erreichen.',
+  description: 'Als Teamentwicklerin unterstütze ich Teams dabei, die Zusammenarbeit und Kommunikation innerhalb des Teams zu verbessern, gemeinsame Ziele zu definieren und zu erreichen.',
 })
 </script>
 
@@ -21,25 +11,25 @@ useSeoMeta({
   <div class="row">
     <div class="col-xs-12 col-md-offset-1 col-lg-offset-2 col-lg-9 col-md-10">
       <h2 class="z-100">
-        {{ $t('teamcoaching.myOffer') }}
+        Mein Angebot
       </h2>
       <h1 class="z-100">
-        {{ $t('teamcoaching.headline') }}
+        Teamentwicklung
       </h1>
-      <p class="z-100">{{ $t('teamcoaching.paragraph1') }}</p>
-      <p class="z-100">{{ $t('teamcoaching.paragraph2') }}</p>
-      <p class="z-100">{{ $t('teamcoaching.paragraph3') }}</p>
+      <p class="z-100">Teamentwicklung stärkt die Kommunikation, das Vertrauen und den Zusammenhalt im Team und ermöglicht effektive Zusammenarbeit. Mit individuell angepassten Impulsen, kreativen Methoden und agilem Ansatz ermöglicht Teamentwicklung nachhaltige Veränderungen. Zentral sind Anstöße zur Reflexion und Hilfe zur Selbsthilfe.</p>
+      <p class="z-100">Für neu zusammengesetzte Teams ist es zunächst wichtig aus einer Gruppe zum Team zu werden. In dieser Phase ist das Teambuilding zentral. Es geht darum, sich kennenzulernen, Vertrauen aufzubauen und Grundlegendes der Zusammenarbeit im Team zu klären.</p>
+      <p class="z-100">Schon länger bestehenden Teams begegnen in der Regel vielfältige Herausforderungen. Mögliche Anlässe für ein Teamcoaching sind:</p>
       <ul class="z-100">
-        <li>{{ $t('teamcoaching.teamcoachingReasons.listItem1')}}</li>
-        <li>{{ $t('teamcoaching.teamcoachingReasons.listItem2')}}</li>
-        <li>{{ $t('teamcoaching.teamcoachingReasons.listItem3')}}</li>
-        <li>{{ $t('teamcoaching.teamcoachingReasons.listItem4')}}</li>
-        <li>{{ $t('teamcoaching.teamcoachingReasons.listItem5')}}</li>
-        <li>{{ $t('teamcoaching.teamcoachingReasons.listItem6')}}</li>
+        <li>Verbesserung von Zusammenarbeit und Kommunikation</li>
+        <li>Unklare Rollenverteilung und Prozesse</li>
+        <li>Ein Wechsel in der Führung</li>
+        <li>Veränderung der Aufgaben</li>
+        <li>Arbeiten in hybriden Teams</li>
+        <li>Herausforderungen rund um Selbstorganisation und agiles Arbeiten</li>
       </ul>
-      <p class="z-100">{{ $t('teamcoaching.paragraph4') }}</p>
-      <p class="z-100">{{ $t('teamcoaching.paragraph5') }}</p>
-      <p class="z-100">{{ $t('teamcoaching.paragraph6') }}</p>
+      <p class="z-100">In Teams kommt es immer wieder zu Konflikten, ich unterstütze in diesen Fällen als Konfliktmoderatorin oder Mediatorin. Es muss jedoch nicht immer erst zur Problemen kommen, um eine Teamentwicklungsmaßnahme anzustoßen. Gerne begleite ich Teams als Teamentwicklerin langfristig und arbeite kontinuierlich mit dem Team an der Verbesserung der Zusammenarbeit. Ich arbeite gerne mit Remote-Teams zusammen und führe alle Teamentwicklungsprozesse auch online durch.</p>
+      <p class="z-100">Mein Vorgehen behält dabei immer die im Team oder der Gruppe vorhandenen Ressourcen im Blick, um diese zu stärken und um die Dialog- und Arbeitsfähigkeit nachhaltig zu fördern.</p>
+      <p class="z-100">Kontaktieren Sie mich für ein unverbindliches Vorgespräch. So kann ich mir einen ersten Eindruck von Ihrem Anliegen und Ihren Zielen verschaffen. Daraufhin erstelle ich ein Angebot. Im nächsten Schritt spreche ich, wenn möglich, mit allen Mitgliedern des Teams, um alle Sichtweisen einzubeziehen und mir ein Gesamtbild zu verschaffen. Basierend darauf entwickle ich ein Konzept, dass es dem Team erlaubt Lösungswege für die vereinbarte Zielsetzung zu erarbeiten.</p>
     </div>
   </div>
 </template>

@@ -1,7 +1,7 @@
 <template>
   <footer>
     <div class="footer-email z-100">
-      <strong class="question">{{ $t('components.footer.contact') }}</strong>
+      <strong class="question">Interesse oder Fragen?</strong>
       <div class="adress-container">
         <div class="adress">
           <a href="mailto:hallo@ninasiessegger.de">
@@ -15,12 +15,12 @@
     </div>
 
     <div class="footer-links">
-      <NuxtLink :to="localePath('/impressum')">
-        {{$t('components.footer.imprint')}} 
+      <NuxtLink to="/impressum">
+        Impressum
       </NuxtLink> 
       und
-      <NuxtLink :to="localePath('/datenschutz')">
-        {{$t('components.footer.dataProtection')}} 
+      <NuxtLink to="/datenschutz">
+        Datenschutz
       </NuxtLink>
     </div>
   </footer>

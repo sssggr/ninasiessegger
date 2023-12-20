@@ -1,19 +1,9 @@
 <script setup>
-import { useI18n } from "vue-i18n";
-const { t } = useI18n();
-const i18nHead = useLocaleHead({ addSeoAttributes: true })
-
-useHead({
-	htmlAttrs: { lang: i18nHead.value.htmlAttrs.lang },
-	link: [...i18nHead.value.link],
-	meta: [...i18nHead.value.meta]
-})
-
 useSeoMeta({
-  title: t('seo.howIWork.title'),
-  ogTitle: t('seo.howIWork.title'),
-  ogDescription: t('seo.howIWork.description'),
-  description: t('seo.howIWork.description'),
+  title: 'Wie ich arbeite',
+  ogTitle: 'Wie ich arbeite',
+  ogDescription: 'Ich bin pragmatisch und arbeite lösungsorientiert. Kleine kontinuierliche Schritte, die sich im Alltag gut umsetzen lassen, ermöglichen inkrementelle Veränderung und stetiges Lernen.',
+  description: 'Ich bin pragmatisch und arbeite lösungsorientiert. Kleine kontinuierliche Schritte, die sich im Alltag gut umsetzen lassen, ermöglichen inkrementelle Veränderung und stetiges Lernen.',
 })
 </script>
 
@@ -21,12 +11,12 @@ useSeoMeta({
   <div class="row">
     <div class="col-xs-12 col-md-offset-1 col-lg-offset-2 col-lg-9 col-md-10">
       <h1 class="z-100">
-        {{ $t('howIWork.headline') }}
+        Wie ich arbeite
       </h1>
-        <p class="z-100">{{ $t('howIWork.paragraph1') }}</p>
-        <p class="z-100">{{ $t('howIWork.paragraph2') }}</p>
-        <p class="z-100">{{ $t('howIWork.paragraph3') }}</p>
-        <p class="z-100">{{ $t('howIWork.paragraph4') }}</p>
+        <p class="z-100">Meine Haltung ist systemisch und wertschätzend. Dabei ist es mir ein Anliegen die vorhandenen Ressourcen zu stärken, aktivieren und zu nutzen. Lösungen, die nachhaltig wirken, werden nicht von außen eingeführt, sondern von den Beteiligten selbst entwickelt.</p>
+        <p class="z-100">Ich bin pragmatisch und arbeite lösungsorientiert. Kleine kontinuierliche Schritte, die sich im Alltag gut umsetzen lassen, ermöglichen inkrementelle Veränderung und stetiges Lernen. Das Prinzip der kontinuierlichen Verbesserung schätze ich deshalb ganz besonders, gerade im Umgang mit komplexen Situationen.</p>
+        <p class="z-100">Mir ist es wichtig einen Raum zu schaffen, indem alle Beteiligten ihre Sichtweisen und ihre Expertise einbringen können. Ich glaube fest daran, dass die Vielfalt der Perspektiven und die Zusammenarbeit aller Beteiligten zu kreativen und effektiven Lösungen führen.</p>
+        <p class="z-100">In meiner Arbeit verbinde ich gerne systemische und agile Ansätze. Durch die systemische Betrachtung werden die Zusammenhänge und Wechselwirkungen innerhalb des Systems berücksichtigt, während agile Methoden Flexibilität und Anpassungsfähigkeit fördern.</p>
     </div>
   </div>
 </template>

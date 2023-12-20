@@ -1,15 +1,3 @@
-<script setup>
-import { useI18n } from "vue-i18n";
-const { t } = useI18n();
-const i18nHead = useLocaleHead({ addSeoAttributes: true })
-
-useHead({
-	htmlAttrs: { lang: i18nHead.value.htmlAttrs.lang },
-	link: [...i18nHead.value.link],
-	meta: [...i18nHead.value.meta]
-})
-</script>
-
 <template>
   <div>
     <div class="row">
@@ -17,11 +5,11 @@ useHead({
         <div class="row hero">
           <div class="col-xs-12 col-md-6 col-sm-6 hero-item1">
             <h1>
-              {{ $t('index.headline', {char: '&#173;'}) }}
+              Gemeinsam wachsen, Veränderungen erfolgreich navigieren – Mediation, Team- und Organisations&#173;entwicklung für nachhaltige Transformation
             </h1>
             <div class="button-container">
-              <NuxtLink :to="localePath('/ueber-mich')" class="btn">
-              {{ $t('index.aboutMe') }}
+              <NuxtLink to="/ueber-mich" class="btn">
+                Über mich
             </NuxtLink>
             </div>
            </div>
@@ -33,7 +21,7 @@ useHead({
     </div>
     <section>
       <h2>
-        {{ $t('index.myOffer') }}
+        Mein Angebot
       </h2>
       <div class="row">
         <div class="col-xs-12 col-md-5 col-sm-5 col-lg-offset-1">
@@ -41,13 +29,13 @@ useHead({
         </div>
         <div class="col-xs-12 col-md-7 col-sm-7 col-lg-5 teaser-container">
           <h3 class="organisationalConsulting">
-            {{ $t('index.organisationalConsulting') }}
+            Agile Organisationsberatung
           </h3>
           <p>
-            {{ $t('index.organisationalConsultingTeaser') }}
+            Ich begleite Menschen, Teams und Organisationen dabei, Veränderungsprozesse zu gestalten. Da Organisationen und ihre Umwelt kontinuierlich im Wandel sind, arbeite ich gerne in einem fortlaufenden und agilen Prozess.
           </p>
-          <NuxtLink :to="localePath('/agile-organisationsberatung')" class="btn">
-            {{ $t('index.more') }}
+          <NuxtLink to="/agile-organisationsberatung" class="btn">
+            Mehr
           </NuxtLink>
         </div>
         <div class="col-xs-12 col-md-5 col-sm-5 col-lg-offset-1">
@@ -55,13 +43,13 @@ useHead({
         </div>
         <div class="col-xs-12 col-md-7 col-sm-7 col-lg-5 teaser-container">
           <h3>
-            {{ $t('index.teamcoaching') }}
+            Teamentwicklung
           </h3>
           <p>
-            {{ $t('index.teamcoachingTeaser') }}
+            Teamentwicklung stärkt die Kommunikation, das Vertrauen und den Zusammenhalt im Team und ermöglicht effektive Zusammenarbeit. Individuell angepasste Impulse ermöglichen nachhaltige Veränderungen.
           </p>
-          <NuxtLink :to="localePath('/teamentwicklung')" class="btn">
-            {{ $t('index.more') }}
+          <NuxtLink to="/teamentwicklung" class="btn">
+            Mehr
           </NuxtLink>
         </div>
         <div class="col-xs-12 col-md-5 col-sm-5 col-lg-offset-1">
@@ -69,30 +57,30 @@ useHead({
         </div>
         <div class="col-xs-12 col-md-7 col-sm-7 col-lg-5 teaser-container">
           <h3>
-            {{ $t('index.mediation') }}
+            Mediation
           </h3>
           <p>
-            {{ $t('index.mediationTeaser') }}
+            Eine Mediation bietet Konfliktparteien die Möglichkeit konstruktive und nachhaltige Lösungen zu finden, die ihre Interessen und Bedürfnisse berücksichtigen. Ich führe Mediationen sowohl im privaten Bereich als auch in Teams und Organisationen durch.
           </p>
-          <NuxtLink :to="localePath('/mediation')" class="btn">
-            {{ $t('index.more') }}
+          <NuxtLink to="/mediation" class="btn">
+            Mehr
           </NuxtLink>
         </div>
       </div>
     </section>
       <section>
         <h2>
-          {{ $t('index.myTopics') }}
+          Meine Themen
         </h2>
         <div class="row">
           <div class="col-xs-12 col-md-offset-1 col-md-10 col-sm-12">
             <ul>
-              <li>{{ $t('index.topics.collaboration') }}</li>
-              <li>{{ $t('index.topics.agile') }}</li>
-              <li>{{ $t('index.topics.selfOrganization') }}</li>
-              <li>{{ $t('index.topics.changeProcesses') }}</li>
-              <li>{{ $t('index.topics.remote') }}</li>
-              <li>{{ $t('index.topics.software') }}</li>
+              <li>Kollaboration</li>
+              <li>Agiles Arbeiten</li>
+              <li>Selbstorganisation</li>
+              <li>Veränderungsprozesse</li>
+              <li>Zusammenarbeit in remote oder hybriden Settings</li>
+              <li>Softwareentwicklung</li>
             </ul>
           </div>
         </div>

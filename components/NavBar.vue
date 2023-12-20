@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar">
-    <NuxtLink :to="localePath('/')" class="navbar-item logo-container">
+    <NuxtLink to="/" class="navbar-item logo-container">
       <div class="logo">
         <div class="forename">Nina</div>
         <div class="surname-container">
@@ -42,53 +42,48 @@
         @click="menuActive = false"
       >
         <li class="services">
-          <NuxtLink :to="localePath('/')">
-            {{ $t('components.navbar.offerings') }}
+          <NuxtLink to="/">
+            Mein Angebot
           </NuxtLink>
           <ul class="dropdown">
             <li>
-              <NuxtLink :to="localePath('/agile-organisationsberatung')">
-                {{ $t('components.navbar.organisationalConsulting') }}
+              <NuxtLink to="/agile-organisationsberatung">
+                Agile Organisationsberatung
               </NuxtLink>
             </li>
             <li>
-              <NuxtLink :to="localePath('/teamentwicklung')">
-                {{ $t('components.navbar.teamcoaching') }}
+              <NuxtLink to="teamentwicklung">
+                Teamentwicklung
               </NuxtLink>
             </li>
             <li>
-              <NuxtLink :to="localePath('/mediation')">
-                {{ $t('components.navbar.mediation') }}
+              <NuxtLink to="/mediation">
+                Mediation
               </NuxtLink>
             </li>
             <li>
-              <NuxtLink :to="localePath('/inqa-coaching')">
-                {{ $t('components.navbar.inqa') }}
+              <NuxtLink to="/inqa-coaching">
+                INQA: Förderung für KMU
               </NuxtLink>
             </li>
           </ul>
         </li>
         <li>
-          <NuxtLink :to="localePath('/ueber-mich')">
-            {{ $t('components.navbar.aboutMe') }}
+          <NuxtLink to="ueber-mich">
+            Über mich
           </NuxtLink>
         </li>
         <li>
-          <NuxtLink :to="localePath('/wie-ich-arbeite')">{{
-            $t('components.navbar.howIWork')
-          }}</NuxtLink>
+          <NuxtLink to="/wie-ich-arbeite">
+            Wie ich arbeite
+          </NuxtLink>
         </li>
         <li>
-          <NuxtLink :to="localePath('/kontakt')">{{
-            $t('components.navbar.contact')
-          }}</NuxtLink>
+          <NuxtLink to="/kontakt">
+            Kontakt
+          </NuxtLink>
         </li>
       </ul>
-    </div>
-    <div class="language-switch">
-      <nuxt-link :to="switchLocalePath('de')" class="navbar-item">DE</nuxt-link>
-      <span>&nbsp;|&nbsp;</span>
-      <nuxt-link :to="switchLocalePath('en')" class="navbar-item">EN</nuxt-link>
     </div>
   </nav>
 </template>

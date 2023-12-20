@@ -1,34 +1,23 @@
 <script setup>
-import { useI18n } from "vue-i18n";
-const { t } = useI18n();
-
-const head = useLocaleHead({
-  addDirAttribute: true,
-  identifierAttribute: 'id',
-  addSeoAttributes: true
-})
-
 useSeoMeta({
-  title: t('seo.title'),
-  ogTitle: t('seo.title'),
-  ogDescription: t('seo.description'),
-  description: t('seo.description'),
-  ogSiteName: t('seo.title'),
+  title: 'Nina Siessegger - Organisations- und Teamentwicklung, Mediation',
+  ogTitle: 'Nina Siessegger - Organisations- und Teamentwicklung, Mediation',
+  ogDescription: 'Ich begleite Teams, Gruppen und Organisationen in Veränderungs, Lern- und Entwicklungsprozessen.',
+  description: 'Ich begleite Teams, Gruppen und Organisationen in Veränderungs, Lern- und Entwicklungsprozessen.',
+  ogSiteName: 'Nina Siessegger - Organisations- und Teamentwicklung, Mediation',
   ogUrl: 'https://ninasiessegger.de',
   ogImage: 'https://ninasiessegger.de/card.png'
 })
 </script>
 
 <template>
-  <Html :lang="head.htmlAttrs.lang" :dir="head.htmlAttrs.dir">
-    <div class="wrap container-fluid">
-      <NavBar />
-      <main>
-        <slot />
-      </main>
-      <DefaultFooter />
-    </div>
-  </Html>
+  <div class="wrap container-fluid">
+    <NavBar />
+    <main>
+      <slot />
+    </main>
+    <DefaultFooter />
+  </div>
 </template>
 
 <script>
