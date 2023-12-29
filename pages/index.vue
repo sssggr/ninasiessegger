@@ -1,3 +1,12 @@
+<script setup>
+useSeoMeta({
+  title: 'Nina Siessegger - Team- und Organisationsentwicklung, Mediation',
+  ogTitle: 'Nina Siessegger - Team- und Organisationsentwicklung, Mediation',
+  ogDescription: 'Ich begleite Teams, Gruppen und Organisationen in Veränderungs, Lern- und Entwicklungsprozessen.',
+  description: 'Ich begleite Teams, Gruppen und Organisationen in Veränderungs, Lern- und Entwicklungsprozessen.',
+})
+</script>
+
 <template>
   <div>
     <div class="row">
