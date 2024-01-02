@@ -66,10 +66,10 @@ useSeoMeta({
         </div>
         <div class="col-xs-12 col-md-7 col-sm-7 col-lg-5 teaser-container">
           <h3>
-            Mediation
+            Mediation & Konfliktberatung
           </h3>
           <p>
-            Eine Mediation bietet Konfliktparteien die Möglichkeit konstruktive und nachhaltige Lösungen zu finden, die ihre Interessen und Bedürfnisse berücksichtigen. Ich führe Mediationen sowohl im privaten Bereich als auch in Teams und Organisationen durch.
+            Im Team oder Projekt gibt es Spannungen? Die Stimmung ist schlecht, die Zusammenarbeit gestaltet sich schwierig? Sie wünschen sich Hilfe bei der Konfliktklärung? Ich stehe Ihnen als Mediatorin oder Konliktberaterin zur Seite.
           </p>
           <NuxtLink to="/mediation" class="btn">
             Mehr
@@ -88,6 +88,7 @@ useSeoMeta({
               <li>Agiles Arbeiten</li>
               <li>Selbstorganisation</li>
               <li>Veränderungsprozesse</li>
+              <li>Konfliktmanagement</li>
               <li>Zusammenarbeit in remote oder hybriden Settings</li>
               <li>Softwareentwicklung</li>
             </ul>
