@@ -2,8 +2,8 @@
 useSeoMeta({
   title: 'INQA-Coaching',
   ogTitle: 'INQA-Coaching',
-  ogDescription: 'Agil in die digitale Zukunft: Jetzt Förderung beantragen für ein INQA Coaching! Das geförderte Beratungsprogramm Förderprogramm für KMU.',
-  description: 'Agil in die digitale Zukunft: Jetzt Förderung beantragen für ein INQA Coaching! Das geförderte Beratungsprogramm Förderprogramm für KMU.',
+  ogDescription: 'Agil in die digitale Zukunft: Jetzt Förderung beantragen für ein INQA Coaching! Das geförderte Beratungsprogramm für KMU.',
+  description: 'Agil in die digitale Zukunft: Jetzt Förderung beantragen für ein INQA Coaching! Das geförderte Beratungsprogramm für KMU.',
 })
 </script>
 

@@ -47,8 +47,8 @@
           </NuxtLink>
           <ul class="dropdown">
             <li>
-              <NuxtLink to="/agile-organisationsberatung">
-                Agile Organisationsberatung
+              <NuxtLink to="/agile-organisationsentwicklung">
+                Agile Organisationsentwicklung
               </NuxtLink>
             </li>
             <li>
