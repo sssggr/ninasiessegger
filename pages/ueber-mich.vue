@@ -27,14 +27,14 @@ useSeoMeta({
           hier zusammengefasst.
         </NuxtLink>
       </p>
-      <h2 class="z-100">Qualifikationen</h2>
+      <h2 class="z-100">Aus- und Weiterbildungen</h2>
       <ul class="z-100">
         <li>Zertifizierte Mediatorin nach Mediationsgesetz</li>
-        <li>Systemische Teamcoaching Ausbildung (die coachingakademie)</li>
+        <li>Systemisches Teamcoaching (die coachingakademie)</li>
         <li>Soziokratie 3.0 Practitioner Level 1</li>
         <li>Der agile Kulturwandel & Organsationsentwicklung (Teamworks)</li>
         <li>Autorisierte Prozessberaterin im Programm INQA-Coaching</li>
-        <li>Certified ScrumMaster</li>
+        <li>Certified ScrumMaster®</li>
         <li>Verschiedene Weiterbildungen (Online Moderation, Visualisierung, Management von Remote Teams, Liberating Structures, Design Thinking)</li>
       </ul>
     </div>
