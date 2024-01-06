@@ -38,12 +38,12 @@ useSeoMeta({
         </div>
         <div class="col-xs-12 col-md-7 col-sm-7 col-lg-5 teaser-container">
           <h3 class="organisationalConsulting">
-            Agile Organisationsberatung
+            Agile Organisationsentwicklung
           </h3>
           <p>
             Ich begleite Menschen, Teams und Organisationen dabei, Veränderungsprozesse zu gestalten. Da Organisationen und ihre Umwelt kontinuierlich im Wandel sind, arbeite ich gerne in einem fortlaufenden und agilen Prozess.
           </p>
-          <NuxtLink to="/agile-organisationsberatung" class="btn">
+          <NuxtLink to="/agile-organisationsentwicklung" class="btn">
             Mehr
           </NuxtLink>
         </div>
