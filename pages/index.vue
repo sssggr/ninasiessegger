@@ -142,6 +142,10 @@ export default {
   .teaser-container {
     margin-bottom: 3rem;
     margin-top: 2rem;
+
+    p {
+      font-size: var(--fs-smaller);
+    }
   }
 
   ul {
