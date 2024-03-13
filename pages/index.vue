@@ -41,7 +41,7 @@ useSeoMeta({
             Agile Organisationsberatung
           </h3>
           <p>
-            Ich begleite Menschen, Teams und Organisationen dabei, Veränderungsprozesse zu gestalten. Da Organisationen und ihre Umwelt kontinuierlich im Wandel sind, arbeite ich gerne in einem fortlaufenden und agilen Prozess.
+            In einer Welt im Wandel sind zukunftsfähige Organisationen, die schnell auf Veränderungen reagieren können, wichtiger denn je. Ich begleite Organisationen dabei sich weiterzuentwickeln und Veränderungen agil und aktiv zu begegnen.
           </p>
           <NuxtLink to="/agile-organisationsberatung" class="btn">
             Mehr
@@ -55,7 +55,7 @@ useSeoMeta({
             Teamentwicklung
           </h3>
           <p>
-            Teamentwicklung stärkt die Kommunikation, das Vertrauen und den Zusammenhalt im Team und ermöglicht effektive Zusammenarbeit. Individuell angepasste Impulse ermöglichen nachhaltige Veränderungen.
+            Ihr wollt als Team eure Zusammenarbeit verbessern, steht vor einer besonderen Herausforderung oder wünscht euch Unterstützung auf eurer Reise Richtung Agilität und Selbstorganisation? Ich begleite euch als Teamcoach und gestalte gemeinsam mit euch nachhaltige Prozesse für eine bessere Zusammenarbeit.
           </p>
           <NuxtLink to="/teamentwicklung" class="btn">
             Mehr
@@ -66,12 +66,26 @@ useSeoMeta({
         </div>
         <div class="col-xs-12 col-md-7 col-sm-7 col-lg-5 teaser-container">
           <h3>
-            Mediation & Konfliktberatung
+            Moderne Führung
           </h3>
           <p>
-            Im Team oder Projekt gibt es Spannungen? Die Stimmung ist schlecht, die Zusammenarbeit gestaltet sich schwierig? Sie wünschen sich Hilfe bei der Konfliktklärung? Ich stehe Ihnen als Mediatorin oder Konliktberaterin zur Seite.
+            In agilen und selbstorganisierten Umgebungen sind neue Führungsansätze und Kompetenzen gefragt. Du bist in einer Führungsrolle und möchtest dich weiterentwickeln? Gemeinsam finden wir Antworten auf deine Fragen und entwickeln ein stimmiges Führungsverständnis für dich.
           </p>
-          <NuxtLink to="/mediation" class="btn">
+          <NuxtLink to="/konfliktmanagement" class="btn">
+            Mehr
+          </NuxtLink>
+        </div>
+        <div class="col-xs-12 col-md-5 col-sm-5 col-lg-offset-1">
+          <img srcset="~/assets/images/desk4.jpg 2x" alt="Ninas desk" class="responsive-img">
+        </div>
+        <div class="col-xs-12 col-md-7 col-sm-7 col-lg-5 teaser-container">
+          <h3>
+            Konfliktmanagement
+          </h3>
+          <p>
+            Konflikte sind in Organisationen und Teams unvermeidlich. Die entscheidende Frage ist deshalb wie wir mit ihnen umgehen. Als zertifizierte Mediatorin begleite ich die konstruktive Bearbeitung von Konflikten und unterstütze Teams dabei ihre eigene Konfliktkompetenz zu stärken.
+          </p>
+          <NuxtLink to="/konfliktmanagement" class="btn">
             Mehr
           </NuxtLink>
         </div>
