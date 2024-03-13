@@ -88,6 +88,7 @@ useSeoMeta({
               <li>Agiles Arbeiten</li>
               <li>Selbstorganisation</li>
               <li>Veränderungsprozesse</li>
+              <li>Führung</li>
               <li>Konfliktmanagement</li>
               <li>Zusammenarbeit in remote oder hybriden Settings</li>
               <li>Softwareentwicklung</li>
