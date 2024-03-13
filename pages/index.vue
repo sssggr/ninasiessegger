@@ -14,7 +14,7 @@ useSeoMeta({
         <div class="row hero">
           <div class="col-xs-12 col-md-6 col-sm-6 hero-item1">
             <h1>
-              Gemeinsam wachsen, Veränderungen erfolgreich navigieren – Mediation, Team- und Organisations&#173;entwicklung für nachhaltige Transformation
+              Gemeinsam wachsen, Veränderungen erfolgreich navigieren und die Zukunft gestalten - Organisationsberatung für eine Welt im Wandel. 
             </h1>
             <div class="button-container">
               <NuxtLink to="/ueber-mich" class="btn">
