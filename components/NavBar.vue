@@ -57,13 +57,13 @@
               </NuxtLink>
             </li>
             <li>
-              <NuxtLink to="/mediation">
-                Mediation
+              <NuxtLink to="/konfliktmanagement">
+                Konfliktmanagement
               </NuxtLink>
             </li>
             <li>
-              <NuxtLink to="/fuehrungskraefteentwicklung">
-                Führungskräfteentwicklung
+              <NuxtLink to="/moderne-fuehrung">
+                Moderne Führung
               </NuxtLink>
             </li>
             <li>
