@@ -62,6 +62,11 @@
               </NuxtLink>
             </li>
             <li>
+              <NuxtLink to="/fuehrungskraefteentwicklung">
+                Führungskräfteentwicklung
+              </NuxtLink>
+            </li>
+            <li>
               <NuxtLink to="/inqa-coaching">
                 INQA: Förderung für KMU
               </NuxtLink>
