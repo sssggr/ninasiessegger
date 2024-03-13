@@ -18,16 +18,15 @@ useSeoMeta({
       </h1>
       <h3 class="z-100">Führung neu denken: Gestalten deine Rolle in der agilen Organisation</h3>
       <p class="z-100">Teams und Organisationen, die auf Selbstorganisation setzen, erfordern neue Führungsansätze und Kompetenzen. Führungsrollen verändern sich und insbesondere die Verteilung von Verantwortung auf mehrere Schultern bringt neue Fragen und Herausforderungen mit sich.</p>
-      <p class="z-100">Im Führungskräfte-Coaching können wir über diese und weitere Fragen sprechen:</p>
+      <p class="z-100">Im Leadership-Coaching können wir über diese und weitere Fragen sprechen:</p>
       <ul class="z-100">
-        <li>Wie finde ich meine Rolle als Führungskraft in der agilen Organisation?</li>
+        <li>Wie finde ich meine Rolle als Führungsperson in der agilen Organisation?</li>
         <li>Wie funktioniert Führung in selbstorganisierten Teams?</li>
         <li>Wie kann ich meine Stärken optimal nutzen, wo will ich mich weiterentwickeln?</li>
         <li>Wie delegiere ich erfolgreich Verantwortung im Team oder Unternehmen?</li>
         <li>Welchen Rahmen brauchen selbstorganisierte Teams?</li>
-        <li>Wie kann ich in meiner neuen Rolle als Führungskraft wachsen?</li>
         <li>Wie gestalte ich die Mitarbeiterentwicklung und Feedback-Gespräche?</li>
-        <li>Wie kann ich Konflikten gelassen begegnen?</li>
+        <li>Wie erkenne ich Konflikte und wie gehe ich mit ihnen um?</li>
         <li>Wie kann ich schwierige Situationen und Gespräche erfolgreich meistern?</li>
       </ul>
       <p class="z-100">Gemeinsam finden wir Antworten auf deine Fragen und entwickeln ein stimmiges Führungsverständnis für dich.</p>
@@ -41,7 +40,7 @@ useSeoMeta({
 
 <script>
 export default {
-  name: 'fuehrungskraefteentwicklung',
+  name: 'moderneFuehrung',
 }
 </script>
 <style scoped>
