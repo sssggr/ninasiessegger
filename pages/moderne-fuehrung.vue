@@ -1,7 +1,7 @@
 <script setup>
 useSeoMeta({
-  title: 'Führungskräfteentwicklung',
-  ogTitle: 'Führungskräfteentwicklung',
+  title: 'Moderne Führung',
+  ogTitle: 'Moderne Führung',
   ogDescription: 'Teams und Organisationen, die auf Agilität und Selbstorganisation setzen, erfordern neue Führungsansätze und Kompetenzen. Du bist in einer Führungsrolle und möchtest dich weiterentwickeln? Gemeinsam finden wir Antworten auf deine Fragen und entwickeln ein stimmiges Führungsverständnis für dich.',
   description: 'Teams und Organisationen, die auf Agilität und Selbstorganisation setzen, erfordern neue Führungsansätze und Kompetenzen. Du bist in einer Führungsrolle und möchtest dich weiterentwickeln? Gemeinsam finden wir Antworten auf deine Fragen und entwickeln ein stimmiges Führungsverständnis für dich.',
 })
@@ -14,7 +14,7 @@ useSeoMeta({
         Mein Angebot
       </h2>
       <h1 class="z-100">
-        Führungskräfteentwicklung
+        Moderne Führung
       </h1>
       <h3 class="z-100">Führung neu denken: Gestalten deine Rolle in der agilen Organisation</h3>
       <p class="z-100">Teams und Organisationen, die auf Selbstorganisation setzen, erfordern neue Führungsansätze und Kompetenzen. Führungsrollen verändern sich und insbesondere die Verteilung von Verantwortung auf mehrere Schultern bringt neue Fragen und Herausforderungen mit sich.</p>
