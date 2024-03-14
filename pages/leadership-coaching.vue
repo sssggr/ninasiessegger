@@ -14,11 +14,11 @@ useSeoMeta({
         Mein Angebot
       </h2>
       <h1 class="z-100">
-        Moderne Führung
+        Leadership Coaching
       </h1>
-      <h3 class="z-100">Führung neu denken: Gestalte deine Rolle in der agilen Organisation</h3>
+      <h3 class="z-100">Führen in agilen Organisationen. Gemeinsam wachsen und Potenzial entfalten</h3>
       <p class="z-100">Teams und Organisationen, die auf Selbstorganisation setzen, erfordern neue Führungsansätze und Kompetenzen. Führungsrollen verändern sich und insbesondere die Verteilung von Verantwortung auf mehrere Schultern bringt neue Fragen und Herausforderungen mit sich.</p>
-      <p class="z-100">Im Leadership-Coaching können wir über diese und weitere Fragen sprechen:</p>
+      <p class="z-100">Im Leadership Coaching können wir über diese und weitere Fragen sprechen:</p>
       <ul class="z-100">
         <li>Wie finde ich meine Rolle als Führungsperson in der agilen Organisation?</li>
         <li>Wie funktioniert Führung in selbstorganisierten Teams?</li>
@@ -40,7 +40,7 @@ useSeoMeta({
 
 <script>
 export default {
-  name: 'moderneFuehrung',
+  name: 'leadershipCoaching',
 }
 </script>
 <style scoped>

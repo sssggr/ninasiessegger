@@ -66,12 +66,12 @@ useSeoMeta({
         </div>
         <div class="col-xs-12 col-md-7 col-sm-7 col-lg-5 teaser-container">
           <h3>
-            Moderne Führung
+            Leadership Coaching
           </h3>
           <p>
             In agilen und selbstorganisierten Umgebungen sind neue Führungsansätze und Kompetenzen gefragt. Du bist in einer Führungsrolle und möchtest dich weiterentwickeln? Gemeinsam finden wir Antworten auf deine Fragen und entwickeln ein stimmiges Führungsverständnis für dich.
           </p>
-          <NuxtLink to="/konfliktmanagement" class="btn">
+          <NuxtLink to="/leadership-coaching" class="btn">
             Mehr
           </NuxtLink>
         </div>

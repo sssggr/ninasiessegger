@@ -62,8 +62,8 @@
               </NuxtLink>
             </li>
             <li>
-              <NuxtLink to="/moderne-fuehrung">
-                Moderne Führung
+              <NuxtLink to="/leadership-coaching">
+                Leadership Coaching
               </NuxtLink>
             </li>
             <li>
