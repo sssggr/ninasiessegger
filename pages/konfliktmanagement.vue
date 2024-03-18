@@ -70,13 +70,13 @@ useSeoMeta({
         Ihr möchtet euch als Team oder Gruppe gemeinsam aktiv mit dem Thema Konflikt auseinandersetzen? Ihr möchtet eigene Muster erkennen und eure Kompetenz im Umgang mit Konflikten stärken? In ein- bis zweitägigen Workshops begleite ich euch auf diesem Weg.
       </p>
       <p class="z-100">
-        Was wir gemeinsam erarbeiten:
+        Wir können zu diesen und weiteren Themen arbeiten:
       </p>
       <ul>
-        <li>Analyse eurer persönlichen Konfliktmuster: Lernen Sie Ihre eigenen Verhaltensweisen und Reaktionen in Konfliktsituationen kennen und verstehen Sie, wie diese Ihr Gegenüber beeinflussen.</li>
-        <li>Erkennen und Einordnen von Konflikten und deren Dynamik: Entwickeln Sie ein Gespür für die verschiedenen Arten von Konflikten und lernen Sie, die zugrundeliegenden Ursachen und die Dynamik zu erkennen.</li>
-        <li>Effektive Kommunikationsstrategien in Konfliktsituationen: Erlernen Sie Techniken für eine klare, wertschätzende und konstruktive Kommunikation in schwierigen Situationen.</li>
-        <li>Entwicklung von Lösungsansätzen für unterschiedliche Konflikttypen: Erarbeiten Sie verschiedene Lösungsstrategien für verschiedene Arten von Konflikten und lernen Sie, diese effektiv anzuwenden.</li>
+        <li>Analyse eurer persönlichen Konfliktmuster: Lernt die eigenen  Verhaltensweisen und Reaktionen in Konfliktsituationen kennen und versteht, wie diese euer Gegenüber beeinflussen.</li>
+        <li>Erkennen und Einordnen von Konflikten und deren Dynamik: Entwickelt ein  Gespür für die verschiedenen Arten von Konflikten und lernt, die  zugrundeliegenden Ursachen und die Dynamik zu erkennen.</li>
+        <li>Effektive Kommunikationsstrategien in Konfliktsituationen: Erlernt Techniken  für eine klare, wertschätzende und konstruktive Kommunikation in  schwierigen Situationen.</li>
+        <li>Entwicklung von Lösungsansätzen für unterschiedliche Konflikttypen: Erarbeitet verschiedene Lösungsstrategien für verschiedene Arten von Konflikten und  lernt, diese effektiv anzuwenden.</li>
       </ul>
     </div>
   </div>
