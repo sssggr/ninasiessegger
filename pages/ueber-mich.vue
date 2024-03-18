@@ -29,7 +29,7 @@ useSeoMeta({
       </p>
       <h2 class="z-100">Aus- und Weiterbildungen</h2>
       <ul class="z-100">
-        <li>Zertifizierte Mediatorin nach Mediationsgesetz</li>
+        <li>Zertifizierte Mediatorin nach Mediationsgesetz (IMK/EHV)</li>
         <li>Systemisches Teamcoaching (die coachingakademie)</li>
         <li>Soziokratie 3.0 Practitioner Level 1</li>
         <li>Der agile Kulturwandel & Organsationsentwicklung (Teamworks)</li>
