@@ -2,8 +2,8 @@
 useSeoMeta({
   title: 'Kontakt - Nina Siessegger',
   ogTitle: 'Kontakt - Nina Siessegger',
-  ogDescription: 'Haben Sie Interesse an einer Zusammenarbeit oder wollen mehr über mein Angebot erfahren? Ich freue mich auf Ihre Nachricht oder Ihren Anruf.',
-  description: 'Haben Sie Interesse an einer Zusammenarbeit oder wollen mehr über mein Angebot erfahren? Ich freue mich auf Ihre Nachricht oder Ihren Anruf.',
+  ogDescription: 'Hast du Interesse an einer Zusammenarbeit oder willst mehr über mein Angebot erfahren? Ich freue mich auf deine Nachricht oder deinen Anruf.',
+  description: 'Hast du Interesse an einer Zusammenarbeit oder willst mehr über mein Angebot erfahren? Ich freue mich auf deine Nachricht oder deinen Anruf.',
 })
 </script>
 
@@ -14,7 +14,7 @@ useSeoMeta({
         Kontakt
       </h1>
       <p class="z-100">
-        Haben Sie Interesse an einer Zusammenarbeit oder wollen mehr über mein Angebot erfahren? Ich freue mich auf Ihre Nachricht oder Ihren Anruf.
+        Hast du Interesse an einer Zusammenarbeit oder willst mehr über mein Angebot erfahren? Ich freue mich auf deine Nachricht oder deinen Anruf.
       </p>
       <p>
         <a href="mailto:hallo@ninasiessegger.de">
