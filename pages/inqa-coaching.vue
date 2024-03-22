@@ -68,7 +68,7 @@ useSeoMeta({
         <p class="z-100">
           <b>Lernphase:</b> Diese Phase dient dazu, die Erfahrungen und erzielte Ergebnisse zu evaluieren. Dies geschieht im Rahmen eines Evaluations-Workshops.
         </p>
-        <p class="z-100">Weitere Informationen zum Ablauf und den Förderschwerpunkten gibt es im <a href="https://www.inqa.de/SharedDocs/downloads/zusaetzliche-infos/inqa-flyer.pdf?__blob=publicationFile&v=1">offiziellen Flyer</a> und auf der <a href="https://www.inqa.de/DE/handeln/inqa-coaching/uebersicht.html">INQA Website.</a></p>
+        <p class="z-100">Weitere Informationen zum Ablauf und den Förderschwerpunkten gibt es im <a href="https://login.inqa.de/fileadmin/PDF/Materialien/230619_Flyer_INQA-Coaching_digitale_bf_Coaches.pdf">offiziellen Flyer</a> und auf der <a href="https://www.inqa.de/DE/handeln/inqa-coaching/uebersicht.html">INQA Website.</a></p>
         <p class="z-100">Du möchtest mehr erfahren? Kontaktiere mich für ein unverbindliches Beratungsgespräch.</p>
       </div>
     </div>
