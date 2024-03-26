@@ -20,10 +20,10 @@ useSeoMeta({
     <div class="row">
       <div class="col-xs-12 col-md-8 col-lg-offset-1 col-lg-7">
         <p class="z-100">
-          Ich bin autorisierte und geprüfte INQA-Coach und begleite Unternehmen in und um Hamburg in Veränderungsprozessen. Die Förderung umfasst maximal 12 Beratungstage. Bis zu 80 Prozent meiner Beratungskosten können durch das Programm finanziert werden.
+          Die Initiative Neue Qualität der Arbeit (INQA) ist ein Bundesprogramm für die Förderung kleiner und mittlerer Unternehmen sowie von Non-Profit-Organisationen. Beim INQA Coaching geht es darum, Unternehmen rund um das Thema Digitalisierung durch eine externe Prozessbegleitung zu unterstützen. Dabei wird auf Agilität und die Partizipation von Mitarbeitenden gesetzt.
         </p>
         <p class="z-100">
-          Die Initiative Neue Qualität der Arbeit (INQA) ist ein Bundesprogramm für die Förderung kleiner und mittlerer Unternehmen sowie von Non-Profit-Organisationen. Beim INQA Coaching geht es darum, Unternehmen rund um das Thema Digitalisierung durch eine externe Prozessbegleitung zu unterstützen. Dabei wird auf Agilität und die Partizipation von Mitarbeitenden gesetzt.
+          Ich bin autorisierte und geprüfte INQA-Coach und begleite Unternehmen in und um Hamburg in Veränderungsprozessen. Die Förderung umfasst maximal 12 Beratungstage. Bis zu 80 Prozent meiner Beratungskosten können durch das Programm finanziert werden.
         </p>
       </div>
       <div class="col-xs-7 col-xs-offset-2 col-md-offset-0 col-md-4 col-lg-3">
