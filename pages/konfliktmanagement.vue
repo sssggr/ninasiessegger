@@ -41,30 +41,12 @@ useSeoMeta({
         <li>Verbesserte Zusammenarbeit: Die Bearbeitung von Konflikten trägt zu einer Verbesserung der Zusammenarbeit im Team und zu einem positiveren Miteinander bei.</li>
         <li>Gestärkte Konfliktlösungskompetenz: Die Konfliktlösungskompetenz der Mitarbeitenden wird gestärkt, wodurch sie besser in der Lage sind, zukünftige Herausforderungen konstruktiv anzugehen und Konflikte eigenständig zu lösen.</li>
       </ul>
-      
-      <h3>Was ist Mediation?</h3>
-      <p class="z-100">
-        Eine Mediation ist ein strukturierter Prozess zur Bearbeitung von Konflikten, ganz egal ob am Arbeitsplatz, im geschäftlichen Bereich, in der Nachbarschaft, in Partnerschaften, Familien oder Freundschaften. Sie kann in allen Situationen angewendet werden, in denen es nützlich ist, Konflikte zu klären und langfristige Beziehungen aufrechtzuerhalten. Mediation ist oft schneller und kostengünstiger als andere Formen der Konfliktlösung, wie z. B. juristische Auseinandersetungen, und kann eine dauerhafte Lösung fördern, da die Parteien gemeinsam eine Vereinbarung erarbeiten.
-      </p>
+      <Accordion :items="mediationInfo"/>
 
-      <h3>Was ist meine Rolle?</h3>
-      <p class="z-100">
-        Als Mediatorin bin ich unabhängig und allparteilich. Ich begleite die Parteien durch den Mediationsprozess und achte darauf, dass alle relevanten Themen besprochen werden. Ich unterstütze die Parteien dabei, selbst eine Lösung zu finden.
-      </p>
+        
 
-      <h3>Was sind die Voraussetzungen für eine Mediation?</h3>
-      <p class="z-100">
-        Eine wichtige Voraussetzung der Mediation ist die Bereitschaft aller Parteien an der Mediation teilzunehmen und den Konflikt zu bearbeiten. 
-      </p>
-
-      <h3>Wie läuft eine Mediation ab?</h3>
-      <p class="z-100">
-        Im telefonischen Kennenlerngespräch klären wir, wer an der Mediation beteiligt ist, worum es geht und welche Rahmenbedingungen (Ort, Zeit, Kosten) bestehen.
-      </p>
-      <p class="z-100">
-        Als Mediatorin sorge ich für einen strukturierten Prozess (5-Phasen-Modell), in dem jede Partei ihre Sicht darlegen kann, Lösungsvorschläge besprochen werden und am Ende eine von allen zusammen erarbeitete Abschlussvereinbarung steht. Ziel ist eine Win-win-Situation für alle Beteiligten, um den Konflikt dauerhaft zu klären. 
-      </p>
-
+       
+        
       <h3 class="z-100">Workshops zur Stärkung der Konfliktkompetenz für Teams und Gruppen</h3>
       <p class="z-100">
         Ihr möchtet euch als Team oder Gruppe gemeinsam aktiv mit dem Thema Konflikt auseinandersetzen? Ihr möchtet eigene Muster erkennen und eure Kompetenz im Umgang mit Konflikten stärken? In ein- bis zweitägigen Workshops begleite ich euch auf diesem Weg.
@@ -83,10 +65,30 @@ useSeoMeta({
 </template>
 
 <script>
+import Accordion from '~/components/Accordion'
 export default {
   name: 'Mediation',
 }
+const mediationInfo = [
+  { 
+    title: "Was ist Mediation?",
+    details: "Eine Mediation ist ein strukturierter Prozess zur Bearbeitung von Konflikten, ganz egal ob am Arbeitsplatz, im geschäftlichen Bereich, in der Nachbarschaft, in Partnerschaften, Familien oder Freundschaften. Sie kann in allen Situationen angewendet werden, in denen es nützlich ist, Konflikte zu klären und langfristige Beziehungen aufrechtzuerhalten. Mediation ist oft schneller und kostengünstiger als andere Formen der Konfliktlösung, wie z. B. juristische Auseinandersetungen, und kann eine dauerhafte Lösung fördern, da die Parteien gemeinsam eine Vereinbarung erarbeiten."
+  },
+  { 
+    title: "Was ist meine Rolle?",
+    details: "Als Mediatorin bin ich unabhängig und allparteilich. Ich begleite die Parteien durch den Mediationsprozess und achte darauf, dass alle relevanten Themen besprochen werden. Ich unterstütze die Parteien dabei, selbst eine Lösung zu finden."
+  }, 
+  {
+    title: "Was sind die Voraussetzungen für eine Mediation?",
+    details: "Eine wichtige Voraussetzung der Mediation ist die Bereitschaft aller Parteien an der Mediation teilzunehmen und den Konflikt zu bearbeiten."
+  },
+  {
+    title: "Wie läuft eine Mediation ab?",
+    details: " Im telefonischen Kennenlerngespräch klären wir, wer an der Mediation beteiligt ist, worum es geht und welche Rahmenbedingungen (Ort, Zeit, Kosten) bestehen. Als Mediatorin sorge ich für einen strukturierten Prozess (5-Phasen-Modell), in dem jede Partei ihre Sicht darlegen kann, Lösungsvorschläge besprochen werden und am Ende eine von allen zusammen erarbeitete Abschlussvereinbarung steht. Ziel ist eine Win-win-Situation für alle Beteiligten, um den Konflikt dauerhaft zu klären."
+  }
+]
 </script>
+
 <style scoped>
 .hg-marker .svg-container{
   margin-top: 5rem;
