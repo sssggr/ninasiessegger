@@ -186,14 +186,13 @@ ul.nav-links {
   padding: 0 14px;
   border-color: var(--gray);
   border-style: solid;
-  border-width: 0 0 3px 0;
+  border-width: 0 0 2px 0;
 }
 
 .menu li:hover,
 .language-switch a:hover {
   border-color: var(--blue);
   border-style: solid;
-  border-width: 0 0 3px 0;
   transition: 0.3s ease;
 }
 
@@ -227,7 +226,7 @@ ul.nav-links {
   width: 16em;
   text-align: left;
   line-height: 1.2;
-  list-style-type: square;
+  list-style-type: disc;
   list-style-position: inside;
 }
 

@@ -10,58 +10,106 @@ useSeoMeta({
 <template>
   <div class="row">
     <div class="col-xs-12 col-md-offset-1 col-lg-offset-2 col-lg-9 col-md-10">
-      <h2 class="z-100">
-        Mein Angebot
-      </h2>
-      <h1 class="z-100">
+      <h1>
         Konfliktmanagement
       </h1>
-      <h3 class="z-100">Konflikte konstruktiv bewältigen und die Zusammenarbeit stärken</h3>
-      <p class="z-100">
-        Im Team oder Projekt knirscht es immer wieder? Die Stimmung ist schlecht und die Zusammenarbeit gestaltet sich schwierig? Ein Konflikt kostet Zeit, Energie, Nerven und letztlich auch Geld, denn er kann die Zusammenarbeit so stark beeinträchtigen, dass ein produktives Weiterkommen nicht mehr möglich ist.
-      </p>
-      <p class="z-100">
-        Konflikte sind jedoch unvermeidlich und gehören zum Leben. Die entscheidende Frage ist daher nicht, ob Konflikte auftreten, sondern wie wir mit ihnen umgehen.
-      </p>
-      <p class="z-100">
-        Ich bin zertifizierte Mediatorin und unterstütze euch dabei, Konflikte zu bearbeiten und eure eigene Konfliktkompetenz zu stärken.
-      </p>
-      <h2 class="z-100">Meine Leistungen</h2>
-      <h3 class="z-100">Konfliktmoderation und Mediation</h3>
-      <p class="z-100">
-        Manchmal sind Konflikte so weit eskaliert, dass sie aus eigener Kraft nicht mehr bearbeitet werden können. In diesen Fällen unterstütze ich euch als Mediatorin. Als Mediatorin sorge ich für ein strukturiertes Gespräch zwischen allen Parteien und unterstütze bei der gemeinsamen Suche nach konstruktiven und nachhaltigen Lösungen.
-      </p>
-      <p class="z-100">
-        Was sind die Vorteile einer Mediation?
-      </p>
-      <ul>
-        <li>Nutzen der im Konflikt gebundenen Energie: Die im Konflikt gebundene Energie kann wieder sinnvoll eingesetzt und für produktive Zwecke genutzt werden.</li>
-        <li>Motor für Veränderung: Die Bearbeitung von Spannungen kann ein wichtiger Motor für Veränderung in Teams und Organisationen sein und positive Entwicklungen fördern.</li>
-        <li>Schnelle und kostengünstige Alternative: Im Vergleich zu langwierigen juristischen Auseinandersetzungen bietet die Mediation eine schnellere und kostengünstigere Alternative zur Konfliktlösung.</li>
-        <li>Verbesserte Zusammenarbeit: Die Bearbeitung von Konflikten trägt zu einer Verbesserung der Zusammenarbeit im Team und zu einem positiveren Miteinander bei.</li>
-        <li>Gestärkte Konfliktlösungskompetenz: Die Konfliktlösungskompetenz der Mitarbeitenden wird gestärkt, wodurch sie besser in der Lage sind, zukünftige Herausforderungen konstruktiv anzugehen und Konflikte eigenständig zu lösen.</li>
-      </ul>
-      <Accordion :items="mediationInfo"/>
-
-        
-
-       
-        
-      <h3 class="z-100">Workshops zur Stärkung der Konfliktkompetenz für Teams und Gruppen</h3>
-      <p class="z-100">
-        Ihr möchtet euch als Team oder Gruppe gemeinsam aktiv mit dem Thema Konflikt auseinandersetzen? Ihr möchtet eigene Muster erkennen und eure Kompetenz im Umgang mit Konflikten stärken? In ein- bis zweitägigen Workshops begleite ich euch auf diesem Weg.
-      </p>
-      <p class="z-100">
-        Wir können zu diesen und weiteren Themen arbeiten:
-      </p>
-      <ul>
-        <li>Analyse eurer persönlichen Konfliktmuster: Lernt die eigenen  Verhaltensweisen und Reaktionen in Konfliktsituationen kennen und versteht, wie diese euer Gegenüber beeinflussen.</li>
-        <li>Erkennen und Einordnen von Konflikten und deren Dynamik: Entwickelt ein  Gespür für die verschiedenen Arten von Konflikten und lernt, die  zugrundeliegenden Ursachen und die Dynamik zu erkennen.</li>
-        <li>Effektive Kommunikationsstrategien in Konfliktsituationen: Erlernt Techniken  für eine klare, wertschätzende und konstruktive Kommunikation in  schwierigen Situationen.</li>
-        <li>Entwicklung von Lösungsansätzen für unterschiedliche Konflikttypen: Erarbeitet verschiedene Lösungsstrategien für verschiedene Arten von Konflikten und  lernt, diese effektiv anzuwenden.</li>
-      </ul>
     </div>
   </div>
+  <section>
+    <div class="row">
+      <div class="col-lg-offset-1 col-lg-10 col-md-12">
+        <div class="row hero">
+          <div class="col-xs-12 col-md-6 col-sm-6 hero-item1">
+            <div class="hero-text-center-vertical">
+              <p>
+                Konflikte konstruktiv bewältigen und die Zusammenarbeit stärken.
+              </p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-6 col-sm-6 portrait-container hero-item2">
+            <img srcset="~/assets/images/desk4.jpg" alt="Ninas desk" class="responsive-img">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-md-offset-1 col-lg-offset-2 col-lg-9 col-md-10">
+        <p>
+          Im Team oder Projekt knirscht es immer wieder? Die Stimmung ist schlecht und die Zusammenarbeit gestaltet sich
+          schwierig? Ein Konflikt kostet Zeit, Energie, Nerven und letztlich auch Geld, denn er kann die Zusammenarbeit
+          so stark beeinträchtigen, dass ein produktives Weiterkommen nicht mehr möglich ist.
+        </p>
+        <p>
+          Konflikte sind jedoch unvermeidlich und gehören zum Leben. Die entscheidende Frage ist daher nicht, ob
+          Konflikte auftreten, sondern wie wir mit ihnen umgehen.
+        </p>
+        <p>
+          Ich bin zertifizierte Mediatorin und unterstütze euch dabei, Konflikte zu bearbeiten und eure eigene
+          Konfliktkompetenz zu stärken.
+        </p>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="row">
+      <div class="col-lg-offset-1 col-lg-10 col-md-12">
+        <h2>Meine Leistungen</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-md-offset-1 col-lg-offset-2 col-lg-9 col-md-10">
+        <h3 class="offer-headline">Konfliktmoderation und Mediation</h3>
+        <p class="offer-text">
+          Manchmal sind Konflikte so weit eskaliert, dass sie aus eigener Kraft nicht mehr bearbeitet werden können. In
+          diesen Fällen unterstütze ich euch als Mediatorin. Als Mediatorin sorge ich für ein strukturiertes Gespräch
+          zwischen allen Parteien und unterstütze bei der gemeinsamen Suche nach konstruktiven und nachhaltigen
+          Lösungen.
+        </p>
+        <h4>
+          Was sind die Vorteile einer Mediation?
+        </h4>
+        <ul class="offer-list">
+          <li><strong>Nutzen der im Konflikt gebundenen Energie:</strong> Die im Konflikt gebundene Energie kann wieder
+            sinnvoll eingesetzt und für produktive Zwecke genutzt werden.</li>
+          <li><strong>Motor für Veränderung:</strong> Die Bearbeitung von Spannungen kann ein wichtiger Motor für
+            Veränderung in Teams und Organisationen sein und positive Entwicklungen fördern.</li>
+          <li><strong>Schnelle und kostengünstige Alternative:</strong> Im Vergleich zu langwierigen juristischen
+            Auseinandersetzungen bietet die Mediation eine schnellere und kostengünstigere Alternative zur
+            Konfliktlösung.</li>
+          <li><strong>Verbesserte Zusammenarbeit:</strong> Die Bearbeitung von Konflikten trägt zu einer Verbesserung
+            der Zusammenarbeit im Team und zu einem positiveren Miteinander bei.</li>
+          <li><strong>Gestärkte Konfliktlösungskompetenz:</strong> Die Konfliktlösungskompetenz der Mitarbeitenden wird gestärkt, wodurch
+            sie besser in der Lage sind, zukünftige Herausforderungen konstruktiv anzugehen und Konflikte eigenständig
+            zu lösen.</li>
+        </ul>
+        <Accordion :items="mediationInfo" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-md-offset-1 col-lg-offset-2 col-lg-9 col-md-10">
+        <h3 class="offer-headline">Workshops zur Stärkung der Konfliktkompetenz für Teams und Gruppen</h3>
+        <p class="offer-text">
+          Ihr möchtet euch als Team oder Gruppe gemeinsam aktiv mit dem Thema Konflikt auseinandersetzen? Ihr möchtet
+          eigene Muster erkennen und eure Kompetenz im Umgang mit Konflikten stärken? In ein- bis zweitägigen Workshops
+          begleite ich euch auf diesem Weg.
+        </p>
+        <h4>
+          Wir können zu diesen und weiteren Themen arbeiten:
+        </h4>
+        <ul class="offer-list">
+          <li><strong>Analyse eurer persönlichen Konfliktmuster:</strong> Lernt die eigenen Verhaltensweisen und Reaktionen in
+            Konfliktsituationen kennen und versteht, wie diese euer Gegenüber beeinflussen.</li>
+          <li><strong>Erkennen und Einordnen von Konflikten und deren Dynamik:</strong> Entwickelt ein Gespür für die verschiedenen Arten
+            von Konflikten und lernt, die zugrundeliegenden Ursachen und die Dynamik zu erkennen.</li>
+          <li><strong>Effektive Kommunikationsstrategien in Konfliktsituationen:</strong> Erlernt Techniken für eine klare,
+            wertschätzende
+            und konstruktive Kommunikation in schwierigen Situationen.</li>
+          <li><strong>Entwicklung von Lösungsansätzen für unterschiedliche Konflikttypen:</strong> Erarbeitet verschiedene
+            Lösungsstrategien für verschiedene Arten von Konflikten und lernt, diese effektiv anzuwenden.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
 </template>
 
 <script>
@@ -70,14 +118,14 @@ export default {
   name: 'Mediation',
 }
 const mediationInfo = [
-  { 
+  {
     title: "Was ist Mediation?",
     details: "Eine Mediation ist ein strukturierter Prozess zur Bearbeitung von Konflikten, ganz egal ob am Arbeitsplatz, im geschäftlichen Bereich, in der Nachbarschaft, in Partnerschaften, Familien oder Freundschaften. Sie kann in allen Situationen angewendet werden, in denen es nützlich ist, Konflikte zu klären und langfristige Beziehungen aufrechtzuerhalten. Mediation ist oft schneller und kostengünstiger als andere Formen der Konfliktlösung, wie z. B. juristische Auseinandersetungen, und kann eine dauerhafte Lösung fördern, da die Parteien gemeinsam eine Vereinbarung erarbeiten."
   },
-  { 
+  {
     title: "Was ist meine Rolle?",
     details: "Als Mediatorin bin ich unabhängig und allparteilich. Ich begleite die Parteien durch den Mediationsprozess und achte darauf, dass alle relevanten Themen besprochen werden. Ich unterstütze die Parteien dabei, selbst eine Lösung zu finden."
-  }, 
+  },
   {
     title: "Was sind die Voraussetzungen für eine Mediation?",
     details: "Eine wichtige Voraussetzung der Mediation ist die Bereitschaft aller Parteien an der Mediation teilzunehmen und den Konflikt zu bearbeiten."
@@ -89,13 +137,3 @@ const mediationInfo = [
 ]
 </script>
 
-<style scoped>
-.hg-marker .svg-container{
-  margin-top: 5rem;
-}
-
-h3 {
-  font-weight: 700;
-  margin: 2rem 0 2rem;
-}
-</style>

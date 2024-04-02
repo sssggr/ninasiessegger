@@ -1,18 +1,13 @@
 <template>
   <footer>
-    <div class="footer-email z-100">
-      <strong class="question">Interesse oder Fragen?</strong>
-      <div class="adress-container">
-        <div class="adress">
-          <a href="mailto:hallo@ninasiessegger.de">
-            hallo@ninasiessegger.de
-          </a>
-        </div>
-        <div class="svg-container">
-          <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 356 57" fill="none"><path stroke-width="46" d="M1.564 34c37.565-2.352 70.75-.994 108.269-4 16.05-1.286 26.167-5.443 38.386-6 32.992-1.504 34.483-1.198 72.791 1.391 50.207 2.394 87.76 7.818 128.554-3.169"/></svg>
-        </div>
-      </div>
-    </div>
+    <p>
+      <strong>Du möchtest mehr erfahren?</strong><br>
+      Kontaktiere mich für ein unverbindliches Erstgespräch.
+    </p>
+    <NuxtLink to="/kontakt" class="btn">
+            Kontakt
+          </NuxtLink>
+    <hr>
 
     <div class="footer-links">
       <NuxtLink to="/impressum">
@@ -26,6 +21,9 @@
   </footer>
 </template>
 <style scoped>
+  p {
+    font-size: var(--fs-basic);
+  }
   footer{
     margin: 8rem 0 4rem;
     text-align: center;
@@ -33,7 +31,16 @@
   footer a{
     text-decoration: none;
   }
-  .footer-email{
+  .footer-links a:hover{
+    border-color: var(--blue);
+    border-style: solid;
+    border-width: 0 0 2px 0;
+    transition: 0.2s ease;
+  }
+  .footer-links{
+    margin-bottom: 5rem;
+  }
+  /* .footer-email{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -97,6 +104,6 @@
   footer .svg-container{
     width: 214px;
   }
-}
+} */
 </style>
 
