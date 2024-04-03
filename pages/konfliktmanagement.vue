@@ -65,7 +65,7 @@ useSeoMeta({
           zwischen allen Parteien und unterstütze bei der gemeinsamen Suche nach konstruktiven und nachhaltigen
           Lösungen.
         </p>
-        <h4>
+        <h4 class="offer-subheadline">
           Was sind die Vorteile einer Mediation?
         </h4>
         <ul class="offer-list">
@@ -93,7 +93,7 @@ useSeoMeta({
           eigene Muster erkennen und eure Kompetenz im Umgang mit Konflikten stärken? In ein- bis zweitägigen Workshops
           begleite ich euch auf diesem Weg.
         </p>
-        <h4>
+        <h4 class="offer-subheadline">
           Wir können zu diesen und weiteren Themen arbeiten:
         </h4>
         <ul class="offer-list">

@@ -144,13 +144,16 @@ h3 {
   font-weight: 700;
   margin: 1rem 0;
 }
-h3.offer-headline{
+h3.offer-headline {
   background-color: #FFFFFF;
   padding: 0.5em var(--gutter) 0.3em;
   margin-bottom: 2rem;
 }
-h4{
+h4 {
   font-size: var(--fs-smaller);
+}
+h4.offer-subheadline {
+  padding-left: var(--gutter);
 }
 
 p {
