@@ -45,12 +45,16 @@ useSeoMeta({
     </section>
     <section>
       <div class="row">
+      <div class="col-lg-offset-1 col-lg-10 col-md-12">
+        <h2>Mein Ansatz</h2>
+      </div>
+    </div>
+      <div class="row">
         <div class="col-xs-12 col-md-offset-1 col-lg-offset-2 col-lg-9 col-md-10">
-          <h2 class="z-100">Mein Ansatz</h2>
-          <p class="z-100"><b>Partizipativ: </b>Ich glaube daran, dass Veränderungen am nachhaltigsten sind, wenn sie gemeinschaftlich gestaltet werden. Daher arbeite ich eng mit allen Stakeholdern zusammen, um die unterschiedlichen Perspektiven und Erfahrungen einzubeziehen.</p>
-          <p class="z-100"><b>Iterativ: </b>Veränderungen werden schrittweise und kontinuierlich umgesetzt, Feedback wird in den Entwicklungsprozess integriert. Dieser Ansatz der Organisationsentwicklung ermöglicht eine organische Entwicklung und bedarf keines umfangreichen Transformationsprojekts.</p>
-          <p class="z-100"><b>Individuell: </b>Ich verkaufe keine Frameworks oder bestimmte Methoden. Gemeinsam mit euch erarbeite ich individuelle Lösungen, die perfekt zu euren Herausforderungen und Zielen passen. Dabei bringe ich meine jahrelange Erfahrung in der Arbeit in und mit agilen Teams und Unternehmen ein.</p>
-          <p class="z-100"><b>Wirkungsvoll: </b>Mein Ziel ist es, die Fähigkeit zur kontinuierlichen Weiterentwicklung innerhalb der Organisation zu stärken und flexibel auf Veränderungen reagieren zu können.</p>
+          <p><b>Partizipativ: </b>Ich glaube daran, dass Veränderungen am nachhaltigsten sind, wenn sie gemeinschaftlich gestaltet werden. Daher arbeite ich eng mit allen Stakeholdern zusammen, um die unterschiedlichen Perspektiven und Erfahrungen einzubeziehen.</p>
+          <p><b>Iterativ: </b>Veränderungen werden schrittweise und kontinuierlich umgesetzt, Feedback wird in den Entwicklungsprozess integriert. Dieser Ansatz der Organisationsentwicklung ermöglicht eine organische Entwicklung und bedarf keines umfangreichen Transformationsprojekts.</p>
+          <p><b>Individuell: </b>Ich verkaufe keine Frameworks oder bestimmte Methoden. Gemeinsam mit euch erarbeite ich individuelle Lösungen, die perfekt zu euren Herausforderungen und Zielen passen. Dabei bringe ich meine jahrelange Erfahrung in der Arbeit in und mit agilen Teams und Unternehmen ein.</p>
+          <p><b>Wirkungsvoll: </b>Mein Ziel ist es, die Fähigkeit zur kontinuierlichen Weiterentwicklung innerhalb der Organisation zu stärken und flexibel auf Veränderungen reagieren zu können.</p>
         </div>
       </div>
     </section>
