@@ -120,7 +120,7 @@ useSeoMeta({
 <script>
 import Accordion from '~/components/Accordion'
 export default {
-  name: 'Mediation',
+  name: 'Konfliktmanagement',
 }
 const mediationInfo = [
   {

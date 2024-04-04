@@ -88,7 +88,7 @@ useSeoMeta({
 
 <script>
 export default {
-  name: 'leadershipCoaching',
+  name: 'leadership-coaching',
 }
 </script>
 <style scoped>
