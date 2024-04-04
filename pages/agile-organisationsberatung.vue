@@ -8,7 +8,6 @@ useSeoMeta({
 </script>
 
 <template>
-
   <div class="row">
       <div class="col-xs-12 col-md-offset-1 col-lg-offset-2 col-lg-9 col-md-10">
         <h1>
@@ -79,7 +78,7 @@ useSeoMeta({
     </div>
     <div class="row">
       <div class="col-xs-12 col-md-offset-1 col-lg-offset-2 col-lg-9 col-md-10">
-        <h3 class="offer-headline"> Digitale Transformationsprozesse</h3>
+        <h3 class="offer-headline">Digitale Transformationsprozesse</h3>
         <p class="offer-text">
           Steht die Digitalisierung eines oder mehrerer Prozesse bei euch an? Ob ihr euer Wissensmanagement, eure Kommunikation oder das Kundenerlebnis neu und digital gestalten wollt, ich begleite euch bei der Gestaltung und Umsetzung digitaler Transformationsprozesse. Gemeinsam finden wir nachhaltige Lösungen.
         </p>

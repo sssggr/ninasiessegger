@@ -9,33 +9,75 @@ useSeoMeta({
 
 <template>
   <div class="row">
-    <div class="col-xs-12 col-md-offset-1 col-lg-offset-2 col-lg-9 col-md-10">
-      <h2 class="z-100">
-        Mein Angebot
-      </h2>
-      <h1 class="z-100">
-        Leadership Coaching
-      </h1>
-      <h3 class="z-100">Führen in agilen Organisationen. Gemeinsam wachsen und Potenzial entfalten</h3>
-      <p class="z-100">Teams und Organisationen, die auf Selbstorganisation setzen, erfordern neue Führungsansätze und Kompetenzen. Führungsrollen verändern sich und insbesondere die Verteilung von Verantwortung auf mehrere Schultern bringt neue Fragen und Herausforderungen mit sich.</p>
-      <p class="z-100">Im Leadership Coaching können wir über diese und weitere Fragen sprechen:</p>
-      <ul class="z-100">
-        <li>Wie finde ich meine Rolle als Führungsperson in der agilen Organisation?</li>
-        <li>Wie funktioniert Führung in selbstorganisierten Teams?</li>
-        <li>Wie kann ich meine Stärken optimal nutzen, wo will ich mich weiterentwickeln?</li>
-        <li>Wie delegiere ich erfolgreich Verantwortung im Team oder Unternehmen?</li>
-        <li>Welchen Rahmen brauchen selbstorganisierte Teams?</li>
-        <li>Wie gestalte ich die Mitarbeiterentwicklung und Feedback-Gespräche?</li>
-        <li>Wie erkenne ich Konflikte und wie gehe ich mit ihnen um?</li>
-        <li>Wie kann ich schwierige Situationen und Gespräche erfolgreich meistern?</li>
-      </ul>
-      <p class="z-100">Gemeinsam finden wir Antworten auf deine Fragen und entwickeln ein stimmiges Führungsverständnis für dich.</p>
-      <h2 class="z-100">So sieht unsere Zusammenarbeit aus</h2>
-      <p class="z-100">Wir vereinbaren ein unverbindliches Erstgespräch, in dem wir uns über dein Anliegen unterhalten. Im Anschluss erhältst du ein Angebot von mir.</p>
-      <p class="z-100">Wir starten mit 6 Terminen mit einer Länge von 90 bis 120 Minuten. Im Rahmen des ersten Termins machen wir eine Analyse des Status quo, priorisieren deine Themen und steigen in den ersten Themenbereich ein. In den weiteren Sessions nehmen wir uns jeweils einen thematischen Schwerpunkt vor. Daneben bietet der Termin Raum für aktuelle Anliegen, die sich aus dem Tagesgeschäft ergeben.</p>
-      <p class="z-100">Die Coaching-Sessions finden online oder in meinem Hamburger Büro statt.</p>
+      <div class="col-xs-12 col-md-offset-1 col-lg-offset-2 col-lg-9 col-md-10">
+        <h1>
+          Moderne Führung & Agilität
+        </h1>
+      </div>
     </div>
-  </div>
+    <section>
+      <div class="row">
+        <div class="col-lg-offset-1 col-lg-10 col-md-12">
+          <div class="row hero">
+            <div class="col-xs-12 col-md-6 col-sm-6 hero-item1">
+              <div class="hero-text-center-vertical">
+                <p>
+                  Führen in agilen Organisationen. Gemeinsam wachsen und Potenzial entfalten
+                </p>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-6 col-sm-6 portrait-container hero-item2">
+              <img srcset="~/assets/images/desk3.jpg" alt="Ninas desk" class="responsive-img">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-md-offset-1 col-lg-offset-2 col-lg-9 col-md-10">
+          <p>
+            Teams und Organisationen, die auf sich selbst steuerende Teams setzen, erfordern neue Führungsansätze und Kompetenzen. Führungsrollen verändern sich und insbesondere die Verteilung von Verantwortung auf mehrere Schultern bringt neue Fragen und Herausforderungen mit sich.
+          </p>
+        </div>
+      </div>
+    </section>
+    <div class="row">
+      <div class="col-lg-offset-1 col-lg-10 col-md-12">
+        <h2>Meine Leistungen</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-md-offset-1 col-lg-offset-2 col-lg-9 col-md-10">
+        <h3 class="offer-headline">Leadership Coaching</h3>
+        <h4 class="offer-subheadline">
+          Im Leadership Coaching können wir über diese und weitere Fragen sprechen:
+        </h4>
+        <ul class="offer-list">
+          <li>Wie finde ich meine Rolle als Führungsperson in der agilen Organisation?</li>
+          <li>Wie funktioniert Führung in sich selbst steuerenden Teams?</li>
+          <li>Wie kann ich meine Stärken optimal nutzen, wo will ich mich weiterentwickeln?</li>
+          <li>Wie delegiere ich erfolgreich Entscheidungen an Teams?</li>
+          <li>Welchen Rahmen brauchen selbstorganisierte Teams?</li>
+          <li>Wie gestalte ich die Mitarbeiterentwicklung und Feedback-Gespräche?</li>
+          <li>Wie erkenne ich Konflikte und wie gehe ich mit ihnen um?</li>
+          <li>Wie kann ich schwierige Situationen und Gespräche erfolgreich meistern?</li>
+        </ul>
+        <p class="offer-text">
+          Gemeinsam finden wir Antworten auf deine Fragen und entwickeln ein stimmiges Führungsverständnis für dich.
+        </p>
+        <h4 class="offer-subheadline">
+          So sieht unsere Zusammenarbeit aus
+        </h4>
+        <p class="offer-text">
+          Wir vereinbaren ein unverbindliches Erstgespräch, in dem wir uns über dein Anliegen unterhalten. Im Anschluss erhältst du ein Angebot von mir.
+        </p>
+        <p class="offer-text">
+          Wir starten mit 6 Terminen mit einer Länge von 90 bis 120 Minuten. Im Rahmen des ersten Termins machen wir eine Analyse des Status quo, priorisieren deine Themen und steigen in den ersten Themenbereich ein. In den weiteren Sessions nehmen wir uns jeweils einen thematischen Schwerpunkt vor. Daneben bietet der Termin Raum für aktuelle Anliegen, die sich aus dem Tagesgeschäft ergeben.
+        </p>
+        <p class="offer-text">
+          Die Coaching-Sessions finden online oder in meinem Hamburger Büro statt.
+        </p>
+      </div>
+    </div>
 </template>
 
 <script>
