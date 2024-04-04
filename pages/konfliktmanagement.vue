@@ -78,7 +78,8 @@ useSeoMeta({
             Konfliktlösung.</li>
           <li><strong>Verbesserte Zusammenarbeit:</strong> Die Bearbeitung von Konflikten trägt zu einer Verbesserung
             der Zusammenarbeit im Team und zu einem positiveren Miteinander bei.</li>
-          <li><strong>Gestärkte Konfliktlösungskompetenz:</strong> Die Konfliktlösungskompetenz der Mitarbeitenden wird gestärkt, wodurch
+          <li><strong>Gestärkte Konfliktlösungskompetenz:</strong> Die Konfliktlösungskompetenz der Mitarbeitenden wird
+            gestärkt, wodurch
             sie besser in der Lage sind, zukünftige Herausforderungen konstruktiv anzugehen und Konflikte eigenständig
             zu lösen.</li>
         </ul>
@@ -97,14 +98,18 @@ useSeoMeta({
           Wir können zu diesen und weiteren Themen arbeiten:
         </h4>
         <ul class="offer-list">
-          <li><strong>Analyse eurer persönlichen Konfliktmuster:</strong> Lernt die eigenen Verhaltensweisen und Reaktionen in
+          <li><strong>Analyse eurer persönlichen Konfliktmuster:</strong> Lernt die eigenen Verhaltensweisen und
+            Reaktionen in
             Konfliktsituationen kennen und versteht, wie diese euer Gegenüber beeinflussen.</li>
-          <li><strong>Erkennen und Einordnen von Konflikten und deren Dynamik:</strong> Entwickelt ein Gespür für die verschiedenen Arten
+          <li><strong>Erkennen und Einordnen von Konflikten und deren Dynamik:</strong> Entwickelt ein Gespür für die
+            verschiedenen Arten
             von Konflikten und lernt, die zugrundeliegenden Ursachen und die Dynamik zu erkennen.</li>
-          <li><strong>Effektive Kommunikationsstrategien in Konfliktsituationen:</strong> Erlernt Techniken für eine klare,
+          <li><strong>Effektive Kommunikationsstrategien in Konfliktsituationen:</strong> Erlernt Techniken für eine
+            klare,
             wertschätzende
             und konstruktive Kommunikation in schwierigen Situationen.</li>
-          <li><strong>Entwicklung von Lösungsansätzen für unterschiedliche Konflikttypen:</strong> Erarbeitet verschiedene
+          <li><strong>Entwicklung von Lösungsansätzen für unterschiedliche Konflikttypen:</strong> Erarbeitet
+            verschiedene
             Lösungsstrategien für verschiedene Arten von Konflikten und lernt, diese effektiv anzuwenden.</li>
         </ul>
       </div>
@@ -136,4 +141,3 @@ const mediationInfo = [
   }
 ]
 </script>
-
