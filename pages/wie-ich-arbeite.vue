@@ -21,11 +21,6 @@ useSeoMeta({
   </div>
 </template>
 
-<script>
-export default {
-  name: 'WieIchArbeite',
-}
-</script>
 <style scoped>
 .hg-marker .svg-container{
   margin-top: 2rem;

@@ -118,11 +118,6 @@ useSeoMeta({
   </section>
 </template>
 
-<script>
-export default {
-  name: 'agile-Organisationsberatung',
-}
-</script>
 <style scoped>
 .hg-marker .svg-container{
   margin-top: 3rem;

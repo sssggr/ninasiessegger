@@ -86,11 +86,6 @@ useSeoMeta({
   </div>
 </template>
 
-<script>
-export default {
-  name: 'leadership-coaching',
-}
-</script>
 <style scoped>
 .hg-marker .svg-container {
   margin-top: 5rem;

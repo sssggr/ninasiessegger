@@ -75,12 +75,6 @@ useSeoMeta({
   </div>
 </template>
 
-<script>
-export default {
-  name: 'INQA',
-}
-</script>
-
 <style scoped>
 .contact {
   margin-bottom: 1rem;

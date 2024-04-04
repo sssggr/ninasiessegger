@@ -127,11 +127,6 @@ useSeoMeta({
   </section>
 </template>
 
-<script>
-export default {
-  name: 'IndexPage',
-}
-</script>
 <style scoped>
 h3 {
   margin: 0;

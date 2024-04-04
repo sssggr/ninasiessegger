@@ -56,12 +56,6 @@ useSeoMeta({
   </div>
 </template>
 
-<script>
-export default {
-  name: 'Impressum',
-}
-</script>
-
 <style scoped>
 .contact {
   margin-bottom: 1rem;

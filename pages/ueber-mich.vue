@@ -41,11 +41,7 @@ useSeoMeta({
     </div>
   </div>
 </template>
-<script>
-export default {
-  name: 'UeberMich',
-}
-</script>
+
 <style scoped>
   img{
     margin-top: -5rem;

@@ -119,9 +119,7 @@ useSeoMeta({
 
 <script>
 import Accordion from '~/components/Accordion'
-export default {
-  name: 'Konfliktmanagement',
-}
+
 const mediationInfo = [
   {
     title: "Was ist Mediation?",
