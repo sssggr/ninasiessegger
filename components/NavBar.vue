@@ -52,7 +52,7 @@
               </NuxtLink>
             </li>
             <li>
-              <NuxtLink to="teamentwicklung">
+              <NuxtLink to="/teamentwicklung">
                 Teamentwicklung
               </NuxtLink>
             </li>
