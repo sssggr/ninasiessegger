@@ -11,7 +11,7 @@ useSeoMeta({
   <div class="row">
     <div class="col-xs-12 col-md-offset-1 col-lg-offset-2 col-lg-9 col-md-10">
       <h1>
-        Agile Teamentwicklung
+        Teamentwicklung
       </h1>
     </div>
   </div>
@@ -76,7 +76,7 @@ useSeoMeta({
         Gemeinsam können wir folgende Themen angehen:
       </h4>
       <ul class="offer-list">
-        <li><strong>Agile Methoden in der Praxis::</strong> Ihr habt agile Methoden eingeführt, aber die Umsetzung
+        <li><strong>Agile Methoden in der Praxis:</strong> Ihr habt agile Methoden eingeführt, aber die Umsetzung
           hapert und stößt auf Unzufriedenheit? Wir analysieren die Herausforderungen und entwickeln gemeinsam
           praktikable Lösungen.</li>
         <li><strong>Gemeinsames Verständnis schaffen:</strong> Euch fehlt ein klares Bild davon, was Agilität und
