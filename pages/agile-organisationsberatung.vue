@@ -1,9 +1,9 @@
 <script setup>
 useSeoMeta({
-  title: "Agile Organisationsberatung",
-  ogTitle: "Agile Organisationsberatung",
-  ogDescription: "Als Organisationsberaterin unterstütze ich Unternehmen dabei, Veränderungsprozesse zu gestalten. Dabei arbeite ich gerne mit agilen Methoden. Mein Ziel ist es, langfristig die Fähigkeit zur kontinuierlichen Weiterentwicklung innerhalb der Organisation zu stärken.",
-  description: "Als Organisationsberaterin unterstütze ich Unternehmen dabei, Veränderungsprozesse zu gestalten. Dabei arbeite ich gerne mit agilen Methoden. Mein Ziel ist es, langfristig die Fähigkeit zur kontinuierlichen Weiterentwicklung innerhalb der Organisation zu stärken.",
+  title: 'Agile Organisationsberatung',
+  ogTitle: 'Agile Organisationsberatung',
+  ogDescription: 'Als Organisationsberaterin unterstütze ich Unternehmen dabei, Veränderungsprozesse zu gestalten. Dabei arbeite ich gerne mit agilen Methoden. Mein Ziel ist es, langfristig die Fähigkeit zur kontinuierlichen Weiterentwicklung innerhalb der Organisation zu stärken.',
+  description: 'Als Organisationsberaterin unterstütze ich Unternehmen dabei, Veränderungsprozesse zu gestalten. Dabei arbeite ich gerne mit agilen Methoden. Mein Ziel ist es, langfristig die Fähigkeit zur kontinuierlichen Weiterentwicklung innerhalb der Organisation zu stärken.',
 })
 </script>
 
