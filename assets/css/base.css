@@ -145,12 +145,13 @@ h3 {
   margin: 1rem 0;
 }
 h3.offer-headline {
+  border-bottom: solid 2px var(--red);
   margin-bottom: 1rem;
   margin-top: 2rem;
 }
 h3.offer-headline::before{
-  content: "● ";
-  color: var(--red);
+  /* content: "● ";
+  color: var(--red); */
   /* display: inline-block; */
   /* padding-right: calc(var(--gutter)*0.5); */
 }
@@ -168,14 +169,37 @@ p.offer-text{
   padding-left: var(--gutter);
 }
 ul.offer-list{
-  padding-left: calc(var(--gutter) - 3px);
-  border-left:solid 3px var(--red);
-  margin-bottom: 2rem;
+  /* padding-left: calc(var(--gutter) - 3px);
+  border-left:solid 2px var(--red); */
+  margin-top: 0;
+  margin-bottom: 1rem;
+  /* padding-left: var(--gutter); */
+  padding-inline-start: var(--gutter);
+  margin-inline-start: -20px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  /* margin-left: 1em; */
 }
 
 ul.offer-list li{
-  list-style: none;
-  margin-bottom: 1em; 
+  margin-bottom: 1rem;
+  padding-left: 20px;
+}
+ul.offer-list li::marker{
+  color: var(--red);
+  font-size: 1.5em;
+  display: inline-block;
+  padding-right: 20px; 
+  line-height: 0.6666em;
+}
+hr.offer-end{
+  margin-bottom: 2rem;
+  margin-top: 0;
+  margin-left: 0;
+  border-color: var(--red);
+  border-style: solid;
+  border-width: 1.5px;
+  width: 50%;
 }
 
 .btn{

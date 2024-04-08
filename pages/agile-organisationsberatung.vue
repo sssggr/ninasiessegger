@@ -117,3 +117,23 @@ useSeoMeta({
     </div>
   </section>
 </template>
+
+<style scoped>
+.hg-marker .svg-container{
+  margin-top: 3rem;
+}
+
+@media all and (max-width: 480px) {
+  .hg-marker .svg-container { 
+    margin-top: 5rem;
+  }
+}
+
+h3 {
+  margin-bottom: 2rem;
+}
+
+p ~ h3 {
+  margin-top: 2rem;
+}
+</style>

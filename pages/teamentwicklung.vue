@@ -90,6 +90,7 @@ useSeoMeta({
           dass dies zu langwierigen und nervenaufreibenden Prozessen führt? Wir schauen uns an, wie ihr alle einbeziehen
           könnt und dennoch vorankommt.</li>
       </ul>
+      <!-- <hr class="offer-end"> -->
     </div>
   </div>
   <div class="row">
@@ -117,6 +118,7 @@ useSeoMeta({
         <li>Klärung von Rollen im Team</li>
         <li>Optimierung von Prozessen</li>
       </ul>
+      <!-- <hr class="offer-end"> -->
     </div>
   </div>
 </template>
