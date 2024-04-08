@@ -240,14 +240,6 @@ li {
     margin-bottom: 1rem;
     margin-top: 0;
   }
-
-  .hero-item1 {
-    order: 2;
-  }
-
-  .hero-item2 {
-    order: 1;
-  }
 }
 
 @media (max-width: 480px) {

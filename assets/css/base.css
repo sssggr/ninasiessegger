@@ -269,7 +269,14 @@ hr {
 .portrait-container {
   line-height: 0;
 }
-
+@media (max-width: 768px) {
+  .hero-item1 {
+    order: 2;
+  }
+  .hero-item2 {
+    order: 1;
+  }
+}
 
 /* Flexboxgrid: edit */
 .row {
