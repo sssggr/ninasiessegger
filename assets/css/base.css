@@ -145,9 +145,14 @@ h3 {
   margin: 1rem 0;
 }
 h3.offer-headline {
-  background-color: #FFFFFF;
-  padding: 0.5em var(--gutter) 0.3em;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+h3.offer-headline::before{
+  content: "● ";
+  color: var(--red);
+  /* display: inline-block; */
+  /* padding-right: calc(var(--gutter)*0.5); */
 }
 h4 {
   font-size: var(--fs-smaller);
@@ -163,8 +168,9 @@ p.offer-text{
   padding-left: var(--gutter);
 }
 ul.offer-list{
-  padding-left: var(--gutter);
+  padding-left: calc(var(--gutter) - 3px);
   border-left:solid 3px var(--red);
+  margin-bottom: 2rem;
 }
 
 ul.offer-list li{
