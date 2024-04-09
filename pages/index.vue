@@ -29,7 +29,7 @@ useSeoMeta({
       </div>
     </div>
   </div>
-  <section>
+  <section class="teaser">
     <h2>
       Mein Angebot
     </h2>
@@ -105,7 +105,7 @@ useSeoMeta({
       </div>
     </div>
   </section>
-  <section>
+  <section class="themen">
     <h2>
       Meine Themen
     </h2>
@@ -124,11 +124,47 @@ useSeoMeta({
       </div>
     </div>
   </section>
+  <section>
+    <h2>
+      Inqa-Programm
+    </h2>
+    <div class="row">
+    <div class="col-lg-offset-1 col-lg-10 col-md-12">
+      <div class="row hero">
+        <div class="col-xs-12 col-md-6 col-sm-6 hero-item1">
+          <p>
+            Agiler und digitaler werden? Jetzt als KMU vom INQA-Förderprogramm profitieren.
+          </p>
+          <div class="button-container">
+            <NuxtLink to="/inqa-coaching" class="btn">
+              Mehr
+            </NuxtLink>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-6 col-sm-6 portrait-container hero-item2">
+          <img src="~/assets/images/inqa-badge.png"
+            alt="INQA Zertifikat" class="responsive-img">
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
 </template>
 
 <style scoped>
 h3 {
   margin: 0;
+}
+.hero p{
+  font-weight: 400;
+}
+
+.teaser{
+margin: 0 0 4.5em;
+}
+
+.themen{
+  margin: 0 0 3.5em;
 }
 
 .teaser-container {

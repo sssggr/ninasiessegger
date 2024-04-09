@@ -27,7 +27,7 @@ useSeoMeta({
             </div>
           </div>
           <div class="col-xs-12 col-md-6 col-sm-6 portrait-container hero-item2">
-            <img srcset="~/assets/images/inqa_header.png" alt="INQA Ilustration" class="responsive-img">
+            <img srcset="~/assets/images/inqa_header.png" alt="INQA Illustration" class="responsive-img">
           </div>
         </div>
       </div>
