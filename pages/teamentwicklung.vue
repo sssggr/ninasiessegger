@@ -103,22 +103,4 @@ useSeoMeta({
       </p>
     </div>
   </div>
-  <div class="row">
-    <div class="col-xs-12 col-md-offset-1 col-lg-offset-2 col-lg-9 col-md-10">
-      <h3 class="offer-headline">Teamcoaching</h3>
-      <p class="offer-text">
-        Bestehende Teams, die ihre Zusammenarbeit verbessern möchten oder Lösungen für konkrete Herausforderungen finden
-        wollen, begleite ich als Teamcoach.
-      </p>
-      <h4 class="offer-subheadline">
-        Mögliche Anlässe für ein Teamcoaching sind:
-      </h4>
-      <ul class="offer-list">
-        <li>Verbesserung von Zusammenarbeit und Kommunikation</li>
-        <li>Klärung von Rollen im Team</li>
-        <li>Optimierung von Prozessen</li>
-      </ul>
-      <!-- <hr class="offer-end"> -->
-    </div>
-  </div>
 </template>
