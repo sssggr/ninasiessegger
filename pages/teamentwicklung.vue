@@ -101,6 +101,15 @@ useSeoMeta({
         Im Rahmen eines Team Kick-Offs lernen sich alle Team-Mitglieder besser kennen, wir sprechen über eure
         gemeinsamen Ziele, klären Rollen im Team sowie die Spielregeln eurer Zusammenarbeit.
       </p>
+
+      <h4 class="offer-subheadline">
+          Das erreichen wir gemeinsam:
+        </h4>
+        <ul class="offer-list">
+          <li><strong>Schnelleres Kennenlernen:</strong> Die Teammitglieder lernen sich in kurzer Zeit besser kennen und bauen Vertrauen auf.</li>
+          <li><strong>Klare gemeinsame Ziele:</strong> Alle Teammitglieder haben ein gemeinsames Verständnis der Ziele und Visionen.</li>
+          <li><strong>Definierte Rollen und Spielregeln:</strong> Die Rollen und Verantwortlichkeiten im Team werden klar definiert. So können unnötige Missverständnisse und Konflikte vermieden werden.</li>
+        </ul>
     </div>
   </div>
 </template>

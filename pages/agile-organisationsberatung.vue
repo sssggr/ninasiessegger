@@ -89,7 +89,7 @@ useSeoMeta({
             Rollen und Verantwortlichkeiten.</li>
           <li><strong>Notwendige Strukturen:</strong> Ich unterstütze euch dabei, die richtigen Rahmenbedingungen für
             Selbstorganisation und Teamarbeit zu schaffen.</li>
-          <li><strong>Neue Lösungsansätze</strong> Mit meinem frischen Blick von außen und neuen, innovativen
+          <li><strong>Neue Lösungsansätze:</strong> Mit meinem frischen Blick von außen und neuen, innovativen
             Perspektiven auf eure Organisation finden wir gemeinsam neue Lösungsansätze.</li>
         </ul>
       </div>
