@@ -57,7 +57,7 @@ useSeoMeta({
       </div>
       <div class="col-xs-12 col-md-7 col-sm-7 col-lg-5 teaser-text-container">
         <h3>
-          Agiles Arbeiten im Team
+          Im Team agil arbeiten
         </h3>
         <p>
           Ihr wollt als Team eure Zusammenarbeit verbessern, steht vor einer besonderen Herausforderung oder wünscht

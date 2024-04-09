@@ -36,7 +36,7 @@
             </li>
             <li>
               <NuxtLink to="/teamentwicklung">
-                Agiles Arbeiten im Team
+                Im Team agil arbeiten
               </NuxtLink>
             </li>
             <li>

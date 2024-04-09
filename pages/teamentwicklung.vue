@@ -1,7 +1,7 @@
 <script setup>
 useSeoMeta({
-  title: 'Teamentwicklung',
-  ogTitle: 'Teamentwicklung',
+  title: 'Im Team agil arbeiten',
+  ogTitle: 'Im Team agil arbeiten',
   ogDescription: 'Als Teamentwicklerin unterstütze ich Teams dabei, die Zusammenarbeit und Kommunikation innerhalb des Teams zu verbessern, gemeinsame Ziele zu definieren und zu erreichen.',
   description: 'Als Teamentwicklerin unterstütze ich Teams dabei, die Zusammenarbeit und Kommunikation innerhalb des Teams zu verbessern, gemeinsame Ziele zu definieren und zu erreichen.',
 })
@@ -11,7 +11,7 @@ useSeoMeta({
   <div class="row">
     <div class="col-xs-12 col-md-offset-1 col-lg-offset-2 col-lg-9 col-md-10">
       <h1>
-        Teamentwicklung
+        Im Team agil arbeiten
       </h1>
     </div>
   </div>
