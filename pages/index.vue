@@ -75,14 +75,13 @@ useSeoMeta({
       </div>
       <div class="col-xs-12 col-md-7 col-sm-7 col-lg-5 teaser-text-container">
         <h3>
-          Leadership Coaching
+          Wirksame Führung
         </h3>
         <p>
-          In agilen und selbstorganisierten Umgebungen sind neue Führungsansätze und Kompetenzen gefragt. Du bist in
-          einer Führungsrolle und möchtest dich weiterentwickeln? Gemeinsam finden wir Antworten auf deine Fragen und
-          entwickeln ein stimmiges Führungsverständnis für dich.
+          Teams und Organisationen, die auf Agilität und sich selbst steuerende Teams setzen, erfordern neue Führungsansätze und
+          Kompetenzen. Du bist in einer Führungsrolle und möchtest dich weiterentwickeln? Gemeinsam schärfen wir deine Rolle und erweitern deine Führungskompetenzen.
         </p>
-        <NuxtLink to="/leadership-coaching" class="btn">
+        <NuxtLink to="/wirksame-fuehrung" class="btn">
           Mehr
         </NuxtLink>
       </div>

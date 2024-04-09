@@ -62,8 +62,8 @@
               </NuxtLink>
             </li>
             <li>
-              <NuxtLink to="/leadership-coaching">
-                Leadership Coaching
+              <NuxtLink to="/wirksame-fuehrung">
+                Wirksame Führung
               </NuxtLink>
             </li>
             <li>
