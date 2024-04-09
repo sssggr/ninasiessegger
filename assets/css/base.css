@@ -25,6 +25,7 @@
     --fs-big: 1.75rem;
     --fs-bigger: 2rem;
     --fs-biggest: 2.25rem;
+    --gutter: 2.25rem;
   }
 }
 @media all and (max-width: 1310px) {
@@ -66,6 +67,7 @@
     --fs-big: 1.125rem;
     --fs-bigger: 1.25rem;
     --fs-biggest: 1.375rem;
+    --gutter: 0.5rem;
   }
 }
 
@@ -127,7 +129,7 @@ p a:hover{
 h1 {
   font-size: var(--fs-biggest);
   margin-top: 0;
-  margin-bottom: 2rem;
+  margin-bottom: 1em;
 }
 
 h2 {
@@ -135,8 +137,8 @@ h2 {
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 3px;
-  margin-bottom: 2rem;
-  margin-top: 3rem;
+  margin-bottom: 1em;
+  margin-top: 2em;
 }
 
 h3 {
@@ -146,43 +148,46 @@ h3 {
 }
 h3.offer-headline {
   border-bottom: solid 2px var(--red);
-  margin-bottom: 1rem;
-  margin-top: 2rem;
-}
-h3.offer-headline::before{
-  /* content: "● ";
-  color: var(--red); */
-  /* display: inline-block; */
-  /* padding-right: calc(var(--gutter)*0.5); */
+  display: inline-block;
+  line-height: 1.375;
+  margin-bottom: 1em;
+  margin-top: 2em;
 }
 h4 {
   font-size: var(--fs-smaller);
 }
 h4.offer-subheadline {
   padding-left: var(--gutter);
+  margin: 1.5em 0 1em;
 }
 
 p {
-  margin: 0 0 1rem;
+  margin: 0 0 1em;
 }
 p.offer-text{
   padding-left: var(--gutter);
 }
+ul{
+  margin: 0 0 1em;
+  margin-inline-start: 0;
+  padding-inline-start: 20px;
+}
+ul li{
+  margin: 0;
+  padding-left: 0.25em;
+}
+
 ul.offer-list{
-  /* padding-left: calc(var(--gutter) - 3px);
-  border-left:solid 2px var(--red); */
   margin-top: 0;
-  margin-bottom: 1rem;
-  /* padding-left: var(--gutter); */
+  margin-bottom: 0;
   padding-inline-start: var(--gutter);
   margin-inline-start: -20px;
   margin-block-start: 0;
   margin-block-end: 0;
-  /* margin-left: 1em; */
 }
 
 ul.offer-list li{
-  margin-bottom: 1rem;
+  margin-bottom: 1em;
   padding-left: 20px;
 }
 ul.offer-list li::marker{
@@ -191,15 +196,6 @@ ul.offer-list li::marker{
   display: inline-block;
   padding-right: 20px; 
   line-height: 0.6666em;
-}
-hr.offer-end{
-  margin-bottom: 2rem;
-  margin-top: 0;
-  margin-left: 0;
-  border-color: var(--red);
-  border-style: solid;
-  border-width: 1.5px;
-  width: 50%;
 }
 
 .btn{
@@ -229,8 +225,8 @@ hr {
   border-style: dashed;
   border-color: #0000FF;
   border-width: 1px;
-  margin-top: 4rem;
-  margin-bottom: 5rem;
+  margin-top: 4em;
+  margin-bottom: 5em;
 }
 .hg-marker-container {
   position: relative;
@@ -267,7 +263,7 @@ hr {
 
 .hero {
   background-color: var(--white);
-  margin-bottom: 3rem;
+  margin-bottom: 2.5em;
 }
 .hero div {
   padding: 0;

@@ -36,8 +36,9 @@ function toggle(item) {
 
 <style scoped>
 .accordion-container{
-    margin: 6rem 0 4rem;
+    margin: 4em 0 2.5em;
 }
+
 button {
     background-color: var(--gray);
     border: none;
@@ -51,9 +52,11 @@ button {
     text-align: left;
     font-weight: 700;
 }
+
 button:hover{
     cursor: pointer;
 }
+
 .hidden {
     display: none;
 }
@@ -61,11 +64,8 @@ button:hover{
 .accordion-title {
     margin: 1.25em 0;
 }
+
 .accordion-headline{
     display: inline;
 }
-
-/* .accordion-details {
-    margin-left: 1.8rem;
-} */
 </style>
