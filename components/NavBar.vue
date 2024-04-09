@@ -25,7 +25,7 @@
       </a>
       <ul id="menu" :class="{ menu: true, 'is-active': menuActive }" @click="menuActive = false">
         <li class="services">
-          <NuxtLink to="/">
+          <NuxtLink to="#">
             Mein Angebot
           </NuxtLink>
           <ul class="dropdown">
