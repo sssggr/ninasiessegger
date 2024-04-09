@@ -34,36 +34,59 @@ useSeoMeta({
         </p>
         <p>
           Seit 2020 lege ich einen immer stärkeren Fokus auf die Begleitung von Organisationen und Teams in ihrer
-          Weiterentwicklung und in Veränderungsprozessen. Mehr zu meiner Arbeitsweise habe ich
-          <NuxtLink to="/wie-ich-arbeite">
-            hier zusammengefasst.
-          </NuxtLink>
+          Weiterentwicklung und in Veränderungsprozessen.
         </p>
       </div>
     </div>
     <section>
-    <div class="row">
-      <div class="col-lg-offset-1 col-lg-10 col-md-12">
-        <h2>
-          Aus- und Weiterbildungen
-        </h2>
+      <div class="row">
+        <div class="col-lg-offset-1 col-lg-10 col-md-12">
+          <h2>
+            Aus- und Weiterbildungen
+          </h2>
+        </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-xs-12 col-md-offset-1 col-lg-offset-2 col-lg-9 col-md-10">
-        <ul>
-          <li>Zertifizierte Mediatorin nach Mediationsgesetz (IMK/EHV)</li>
-          <li>Systemisches Teamcoaching (die coachingakademie)</li>
-          <li>Soziokratie 3.0 Practitioner Level 1</li>
-          <li>Der agile Kulturwandel & Organsationsentwicklung (Teamworks)</li>
-          <li>Autorisierte Prozessberaterin im Programm INQA-Coaching</li>
-          <li>Certified ScrumMaster®</li>
-          <li>Verschiedene Weiterbildungen (Online Moderation, Visualisierung, Management von Remote Teams, Liberating
-            Structures, Design Thinking)</li>
-        </ul>
+      <div class="row">
+        <div class="col-xs-12 col-md-offset-1 col-lg-offset-2 col-lg-9 col-md-10">
+          <ul>
+            <li>Zertifizierte Mediatorin nach Mediationsgesetz (IMK/EHV)</li>
+            <li>Systemisches Teamcoaching (die coachingakademie)</li>
+            <li>Soziokratie 3.0 Practitioner Level 1</li>
+            <li>Der agile Kulturwandel & Organsationsentwicklung (Teamworks)</li>
+            <li>Autorisierte Prozessberaterin im Programm INQA-Coaching</li>
+            <li>Certified ScrumMaster®</li>
+            <li>Verschiedene Weiterbildungen (Online Moderation, Visualisierung, Management von Remote Teams, Liberating
+              Structures, Design Thinking)</li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
+    <section>
+      <div class="row">
+        <div class="col-lg-offset-1 col-lg-10 col-md-12">
+          <h2>
+            Wie ich arbeite
+          </h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-md-offset-1 col-lg-offset-2 col-lg-9 col-md-10">
+          <p class="z-100">Meine Haltung ist systemisch und wertschätzend. Dabei ist es mir ein Anliegen die vorhandenen
+            Ressourcen zu stärken, aktivieren und zu nutzen. Lösungen, die nachhaltig wirken, werden nicht von außen
+            eingeführt, sondern von den Beteiligten selbst entwickelt.</p>
+          <p class="z-100">Ich bin pragmatisch und arbeite lösungsorientiert. Kleine kontinuierliche Schritte, die sich
+            im Alltag gut umsetzen lassen, ermöglichen inkrementelle Veränderung und stetiges Lernen. Das Prinzip der
+            kontinuierlichen Verbesserung schätze ich deshalb ganz besonders, gerade im Umgang mit komplexen
+            Situationen.</p>
+          <p class="z-100">Mir ist es wichtig einen Raum zu schaffen, indem alle Beteiligten ihre Sichtweisen und ihre
+            Expertise einbringen können. Ich glaube fest daran, dass die Vielfalt der Perspektiven und die
+            Zusammenarbeit aller Beteiligten zu kreativen und effektiven Lösungen führen.</p>
+          <p class="z-100">In meiner Arbeit verbinde ich gerne systemische und agile Ansätze. Durch die systemische
+            Betrachtung werden die Zusammenhänge und Wechselwirkungen innerhalb des Systems berücksichtigt, während
+            agile Methoden Flexibilität und Anpassungsfähigkeit fördern.</p>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 

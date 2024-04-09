@@ -8,39 +8,22 @@
             <span>Siessegger</span>
           </div>
           <div class="svg-container">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 254 58"
-              fill="none"
-            >
-              <path
-                stroke-width="46"
-                d="M2.095 34.601c49.889-4.544 77.594-9.218 100.442-4.84 6.602 1.265 22.442-1.614 30.973-1.583 5.552.02 37.377-8.735 58.793-2.674 18.497 5.235 41.096 1.184 57.689 4.027"
-              />
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 254 58" fill="none">
+              <path stroke-width="46"
+                d="M2.095 34.601c49.889-4.544 77.594-9.218 100.442-4.84 6.602 1.265 22.442-1.614 30.973-1.583 5.552.02 37.377-8.735 58.793-2.674 18.497 5.235 41.096 1.184 57.689 4.027" />
             </svg>
           </div>
         </div>
       </div>
     </NuxtLink>
     <div id="menuToggle" class="nav-links">
-      <a
-        role="button"
-        class="hamburger"
-        data-target="menu"
-        aria-label="menu"
-        aria-expanded="false"
-        :class="{ 'is-active': menuActive }"
-        @click="toggleMenu"
-      >
+      <a role="button" class="hamburger" data-target="menu" aria-label="menu" aria-expanded="false"
+        :class="{ 'is-active': menuActive }" @click="toggleMenu">
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
       </a>
-      <ul
-        id="menu"
-        :class="{ menu: true, 'is-active': menuActive }"
-        @click="menuActive = false"
-      >
+      <ul id="menu" :class="{ menu: true, 'is-active': menuActive }" @click="menuActive = false">
         <li class="services">
           <NuxtLink to="/">
             Mein Angebot
@@ -76,11 +59,6 @@
         <li>
           <NuxtLink to="ueber-mich">
             Über mich
-          </NuxtLink>
-        </li>
-        <li>
-          <NuxtLink to="/wie-ich-arbeite">
-            Wie ich arbeite
           </NuxtLink>
         </li>
         <li>
@@ -210,7 +188,7 @@ ul.nav-links {
   display: none;
 }
 
-.dropdown li + li {
+.dropdown li+li {
   margin-top: 10px;
 }
 
@@ -303,6 +281,7 @@ ul.nav-links {
   .surname-container .svg-container {
     width: 204px;
   }
+
   .navbar {
     margin-bottom: 5rem;
   }
@@ -312,12 +291,15 @@ ul.nav-links {
   .navbar {
     margin-bottom: 4rem;
   }
+
   .logo-container {
     order: 2;
   }
+
   #menuToggle {
     order: 3;
   }
+
   .menu {
     display: none;
     font-size: calc(var(--fs-basic) * 1.25);
@@ -329,38 +311,47 @@ ul.nav-links {
     padding: 16px 0;
     margin-top: 10px;
   }
+
   .language-switch {
     order: 1;
     font-size: var(--fs-basic);
     font-weight: 700;
     padding-bottom: 0.125rem;
   }
+
   .menu li {
     border-color: var(--white);
   }
-  .menu li + li {
+
+  .menu li+li {
     margin-top: 12px;
   }
+
   .menu.is-active {
     display: block;
   }
+
   #menuToggle .hamburger {
     display: block;
   }
+
   .dropdown {
     font-size: calc(var(--fs-basic) * 1.125);
     padding: 0.375em 0;
     position: relative;
     left: auto;
   }
+
   .dropdown li {
     text-align: center;
     padding: 0;
     width: auto;
   }
+
   li.services .dropdown {
     display: block;
   }
+
   li.services:hover {
     border-color: var(--white);
   }
@@ -370,10 +361,12 @@ ul.nav-links {
   .navbar {
     margin-bottom: 2rem;
   }
+
   .surname-container .svg-container {
     width: 190px;
   }
-  .menu li + li {
+
+  .menu li+li {
     margin-top: 5px;
   }
 }
@@ -382,22 +375,27 @@ ul.nav-links {
   .navbar {
     margin-bottom: 0.25rem;
   }
+
   .surname-container .svg-container {
     width: 155px;
   }
+
   #menuToggle .hamburger {
     width: 24px;
     height: 24px;
     padding-bottom: 5px;
   }
+
   #menuToggle span {
     width: 24px;
     height: 3px;
     margin-bottom: 4px;
   }
+
   .menu li {
     border-width: 0 0 0 0;
   }
+
   .menu li:hover {
     border-width: 0 0 0 0;
   }
