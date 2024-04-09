@@ -40,7 +40,7 @@ useSeoMeta({
     </div>
     <section>
       <div class="row">
-        <div class="col-lg-offset-1 col-lg-10 col-md-12">
+        <div class="col-lg-offset-1 col-lg-10 col-md-12 col-xs-12">
           <h2>
             Aus- und Weiterbildungen
           </h2>
@@ -63,7 +63,7 @@ useSeoMeta({
     </section>
     <section>
       <div class="row">
-        <div class="col-lg-offset-1 col-lg-10 col-md-12">
+        <div class="col-lg-offset-1 col-lg-10 col-md-12 col-xs-12">
           <h2>
             Wie ich arbeite
           </h2>

@@ -52,7 +52,7 @@ useSeoMeta({
   </section>
   <section>
     <div class="row">
-      <div class="col-lg-offset-1 col-lg-10 col-md-12">
+      <div class="col-lg-offset-1 col-lg-10 col-md-12 col-xs-12">
         <h2>Meine Leistungen</h2>
       </div>
     </div>
