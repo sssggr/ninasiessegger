@@ -281,7 +281,6 @@ ul.nav-links {
   .surname-container .svg-container {
     width: 204px;
   }
-
   .navbar {
     margin-bottom: 5rem;
   }
@@ -300,6 +299,14 @@ ul.nav-links {
     order: 3;
   }
 
+  .menu li {
+    border-width: 0 0 0 0;
+  }
+
+  .menu li:hover {
+    border-width: 0 0 0 0;
+  }
+
   .menu {
     display: none;
     font-size: calc(var(--fs-basic) * 1.25);
@@ -307,9 +314,9 @@ ul.nav-links {
     background-color: var(--white);
     right: 0;
     left: 0;
-    text-align: center;
+    text-align: left;
     padding: 16px 0;
-    margin-top: 10px;
+    margin-top: 16px;
   }
 
   .language-switch {
@@ -329,6 +336,11 @@ ul.nav-links {
 
   .menu.is-active {
     display: block;
+    margin-left: -2rem;
+    margin-right: -2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-bottom: solid 4px var(--blue);
   }
 
   #menuToggle .hamburger {
@@ -343,13 +355,14 @@ ul.nav-links {
   }
 
   .dropdown li {
-    text-align: center;
-    padding: 0;
+    text-align: left;
+    padding: 0 1em;
     width: auto;
   }
 
   li.services .dropdown {
     display: block;
+    margin-bottom: 0;
   }
 
   li.services:hover {
@@ -368,6 +381,12 @@ ul.nav-links {
 
   .menu li+li {
     margin-top: 5px;
+  }
+  .menu.is-active {
+    margin-left: -1.25rem;
+    margin-right: -1.25rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
   }
 }
 
@@ -390,14 +409,6 @@ ul.nav-links {
     width: 24px;
     height: 3px;
     margin-bottom: 4px;
-  }
-
-  .menu li {
-    border-width: 0 0 0 0;
-  }
-
-  .menu li:hover {
-    border-width: 0 0 0 0;
   }
 }
 </style>
