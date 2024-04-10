@@ -4,6 +4,7 @@ export default defineNuxtConfig({
   modules: ['nuxt-simple-sitemap'],
   sitemap: {
     hostname: process.env.NODE_ENV === 'development' ? 'http://localhost:3000' : 'https://ninasiessegger.de',
+    exclude: ['/datenschutz', '/impressum'],
   },
   css: ['normalize.css/normalize.css', 'flexboxgrid', '@/assets/css/base.css'],
   app: {
