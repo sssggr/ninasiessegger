@@ -35,7 +35,7 @@ useSeoMeta({
     <div class="row">
       <div class="col-xs-12 col-md-offset-1 col-lg-offset-2 col-lg-9 col-md-10">
         <p>
-          Teams und Organisationen, die auf sich selbst steuerende Teams setzen, erfordern neue Führungsansätze und
+          Teams und Organisationen, die auf sich selbst steuernde Teams setzen, erfordern neue Führungsansätze und
           Kompetenzen. Führungsrollen verändern sich und insbesondere die Verteilung von Verantwortung auf mehrere
           Schultern bringt neue Fragen und Herausforderungen mit sich.
         </p>
