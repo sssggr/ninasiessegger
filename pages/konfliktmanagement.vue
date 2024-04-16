@@ -1,7 +1,7 @@
 <script setup>
 useSeoMeta({
-  title: 'Konfliktmanagement',
-  ogTitle: 'Konfliktmanagement',
+  title: 'Konflikte konstruktiv bearbeiten',
+  ogTitle: 'Konflikte konstruktiv bearbeiten',
   ogDescription: 'Konflikte sind in Organisationen und Teams unvermeidlich. Die entscheidende Frage ist deshalb wie wir mit ihnen umgehen. Als zertifizierte Mediatorin begleite ich die konstruktive Bearbeitung von Konflikten und unterstütze Teams dabei ihre eigene Konfliktkompetenz zu stärken.',
   description: 'Konflikte sind in Organisationen und Teams unvermeidlich. Die entscheidende Frage ist deshalb wie wir mit ihnen umgehen. Als zertifizierte Mediatorin begleite ich die konstruktive Bearbeitung von Konflikten und unterstütze Teams dabei ihre eigene Konfliktkompetenz zu stärken.',
 })
@@ -40,7 +40,7 @@ useSeoMeta({
           so stark beeinträchtigen, dass ein produktives Weiterkommen nicht mehr möglich ist.
         </p>
         <p>
-          Konflikte sind jedoch unvermeidlich und gehören zum Leben. Die entscheidende Frage ist daher nicht, ob
+          Konflikte sind unvermeidlich und gehören zum sozialen Miteinander dazu. Sie sind zwar meist nicht angenehm für die Beteiligten, aber häufig auch eine Chance für Veränderung. Die entscheidende Frage ist daher nicht, ob
           Konflikte auftreten, sondern wie wir mit ihnen umgehen.
         </p>
         <p>
@@ -126,7 +126,7 @@ const mediationInfo = [
     details: "Eine Mediation ist ein strukturierter Prozess zur Bearbeitung von Konflikten, ganz egal ob am Arbeitsplatz, im geschäftlichen Bereich, in der Nachbarschaft, in Partnerschaften, Familien oder Freundschaften. Sie kann in allen Situationen angewendet werden, in denen es nützlich ist, Konflikte zu klären und langfristige Beziehungen aufrechtzuerhalten. Mediation ist oft schneller und kostengünstiger als andere Formen der Konfliktlösung, wie z. B. juristische Auseinandersetungen, und kann eine dauerhafte Lösung fördern, da die Parteien gemeinsam eine Vereinbarung erarbeiten."
   },
   {
-    title: "Was ist meine Rolle?",
+    title: "Was ist meine Rolle als Mediatorin?",
     details: "Als Mediatorin bin ich unabhängig und allparteilich. Ich begleite die Parteien durch den Mediationsprozess und achte darauf, dass alle relevanten Themen besprochen werden. Ich unterstütze die Parteien dabei, selbst eine Lösung zu finden."
   },
   {
@@ -135,7 +135,11 @@ const mediationInfo = [
   },
   {
     title: "Wie läuft eine Mediation ab?",
-    details: " Im telefonischen Kennenlerngespräch klären wir, wer an der Mediation beteiligt ist, worum es geht und welche Rahmenbedingungen (Ort, Zeit, Kosten) bestehen. Als Mediatorin sorge ich für einen strukturierten Prozess (5-Phasen-Modell), in dem jede Partei ihre Sicht darlegen kann, Lösungsvorschläge besprochen werden und am Ende eine von allen zusammen erarbeitete Abschlussvereinbarung steht. Ziel ist eine Win-win-Situation für alle Beteiligten, um den Konflikt dauerhaft zu klären."
+    details: " Im telefonischen Kennenlerngespräch klären wir, wer an der Mediation beteiligt ist, worum es geht und welche Rahmenbedingungen (Ort, Zeit, Kosten) bestehen. Als Mediatorin sorge ich für einen strukturierten Prozess, in dem jede Partei ihre Sicht darlegen kann und Lösungsvorschläge besprochen werden. Die Parteien loten im Rahmen des Prozesses aus, ob und in welchen Punkten sie Einigung erzielen können."
+  },
+  {
+    title: "Was ist das Ergebnis einer Mediation?",
+    details: "Der Mediationsprozess ist ergebnisoffen. Es kann sein, dass sich die Parteien einigen und eine gemeinsame Abschlussvereinbarung erarbeiten, die Verabredungen für die Zukunft enthält. In einigen Fällen kann keine Einigung erzielt werden. Am Ende des Prozesses besteht in jedem Fall Klarheit darüber, ob und wie es weiter geht.",
   }
 ]
 </script>
