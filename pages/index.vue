@@ -1,9 +1,9 @@
 <script setup>
 useSeoMeta({
-  title: 'Nina Siessegger - Organisationsberatung, Teamentwicklung, Mediation',
-  ogTitle: 'Nina Siessegger - Organisationsberatung, Teamentwicklung, Mediation',
-  ogDescription: 'Ich begleite Teams und Organisationen in Veränderungsprozessen und unterstütze sie dabei, kontinuierlich zu lernen und sich weiterzuentwickeln.',
-  description: 'Ich begleite Teams und Organisationen in Veränderungsprozessen und unterstütze sie dabei, kontinuierlich zu lernen und sich weiterzuentwickeln.',
+  title: 'Nina Siessegger - Agile Organisationsberatung für zukunftsfähige Unternehmen und Arbeitswelten',
+  ogTitle: 'Nina Siessegger - Agile Organisationsberatung für zukunftsfähige Unternehmen und Arbeitswelten',
+  ogDescription: 'Ich begleite Organisationen, Teams und Führungspersonen in Veränderungsprozessen und unterstütze sie dabei, zukunftsfähige Unternehmen und Arbeitswelten zu gestalten.',
+  description: 'Ich begleite Organisationen, Teams und Führungspersonen in Veränderungsprozessen und unterstütze sie dabei, zukunftsfähige Unternehmen und Arbeitswelten zu gestalten.',
 })
 </script>
 
@@ -13,8 +13,7 @@ useSeoMeta({
       <div class="row hero">
         <div class="col-xs-12 col-md-6 col-sm-6 hero-item1">
           <h1>
-            Organisationsberatung für eine Welt im Wandel: Gemeinsam wachsen, Veränderungen erfolgreich navigieren und
-            die Zukunft gestalten.
+            Agile Organisationsberatung für zukunftsfähige Unternehmen und Arbeitswelten
           </h1>
           <div class="button-container">
             <NuxtLink to="/ueber-mich" class="btn">
