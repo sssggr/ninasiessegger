@@ -95,13 +95,6 @@ img {
   margin-top: -5rem;
   padding-bottom: 2.5rem;
 }
-
-@media (max-width: 1200px) {
-  footer .svg-container {
-    width: 306px;
-  }
-}
-
 @media (max-width: 1024px) {
   img {
     margin-top: -3rem;
