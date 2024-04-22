@@ -10,10 +10,10 @@ useSeoMeta({
 <template>
   <div class="row">
     <div class="col-xs-12 col-md-offset-1 col-lg-offset-2 col-lg-9 col-md-10">
-      <h1 class="z-100">
+      <h1>
         Kontakt
       </h1>
-      <p class="z-100">
+      <p>
         Hast du Interesse an einer Zusammenarbeit oder willst mehr über mein Angebot erfahren? Ich freue mich auf deine Nachricht oder deinen Anruf.
       </p>
       <p>
@@ -29,13 +29,3 @@ useSeoMeta({
     </div>
   </div>
 </template>
-
-<style scoped>
-.contact {
-  margin-bottom: 1rem;
-}
-
-.contact p {
-  margin: 0;
-}
-</style>
