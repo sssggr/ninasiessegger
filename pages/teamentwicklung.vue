@@ -90,7 +90,6 @@ useSeoMeta({
           dass dies zu langwierigen und nervenaufreibenden Prozessen führt? Wir schauen uns an, wie ihr alle einbeziehen
           könnt und dennoch vorankommt.</li>
       </ul>
-      <!-- <hr class="offer-end"> -->
     </div>
   </div>
   <div class="row">
@@ -101,7 +100,6 @@ useSeoMeta({
         Im Rahmen eines Team Kick-Offs lernen sich alle Team-Mitglieder besser kennen, wir sprechen über eure
         gemeinsamen Ziele, klären Rollen im Team sowie die Spielregeln eurer Zusammenarbeit.
       </p>
-
       <h4 class="offer-subheadline">
           Das erreichen wir gemeinsam:
         </h4>
