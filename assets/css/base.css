@@ -63,10 +63,10 @@
 @media all and (max-width: 480px) {
   :root{
     --fs-basic: 0.875rem;
-    --fs-smaller: 0.75rem;
-    --fs-big: 1.125rem;
-    --fs-bigger: 1.25rem;
-    --fs-biggest: 1.375rem;
+    --fs-smaller: 0.8125rem;
+    --fs-big: 1rem;
+    --fs-bigger: 1.125rem;
+    --fs-biggest: 1.25rem;
     --gutter: 0.5rem;
   }
 }
@@ -181,14 +181,14 @@ ul.offer-list{
   margin-top: 0;
   margin-bottom: 0;
   padding-inline-start: var(--gutter);
-  margin-inline-start: -20px;
+  margin-inline-start: -12px;
   margin-block-start: 0;
   margin-block-end: 0;
 }
 
 ul.offer-list li{
   margin-bottom: 1em;
-  padding-left: 20px;
+  padding-left: 12px;
 }
 ul.offer-list li::marker{
   color: var(--red);
@@ -196,6 +196,15 @@ ul.offer-list li::marker{
   display: inline-block;
   padding-right: 20px; 
   line-height: 0.6666em;
+}
+@media all and (max-width: 480px) {
+  ul.offer-list{
+    margin-inline-start: 0;
+    padding-inline-start: 12px;
+  }
+  ul.offer-list li{
+    padding-left: 0;
+  }
 }
 
 .btn{
@@ -296,6 +305,10 @@ hr {
   line-height: 0;
 }
 @media (max-width: 768px) {
+  .hero h1,
+  .hero p {
+  padding: calc(var(--gutter) * 2);
+}
   .hero-item1 {
     order: 2;
   }
@@ -442,9 +455,6 @@ hr {
   .container-fluid{
     padding-right: 1.25rem;
     padding-left: 1.25rem;
-  }
-  h1{
-    margin-bottom: 1rem;
   }
   p ~ h2{
     margin: 2rem 0 1rem;
